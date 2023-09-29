@@ -1,0 +1,68 @@
+{% extends 'EstateAgency/base_agency.html' %}
+
+{% block header %}
+.immovables-text {
+  font-size: 20px; /* Slightly larger font size */
+  line-height: 1.4; /* Increased line height for better readability */
+  margin-bottom: 10px; /* Slightly larger margin */
+  text-align: center;
+}
+
+.immovables-item {
+  cursor: pointer;
+  background-color: #f5f5f5; /* Lighter background color for contrast */
+  padding: 15px; /* Slightly smaller padding for a cleaner look */
+  text-align: center;
+  border-radius: 5px; /* Rounded corners for a softer appearance */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.immovables-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjusted column width */
+  grid-gap: 15px; /* Reduced grid gap for a tighter layout */
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+{% endblock %}
+
+
+{% block content %}
+
+<ul class="immovables-list">
+    {% for booking in all_booking %}
+    <form method="post">
+        {% csrf_token %}
+        <input type="hidden" name="booking_id" value="{{ booking.id }}">
+        <li class="immovables-item">
+            <div class="immovables-text">
+                <label>{{ booking.immovables }}</label><br>
+                <label>Check in/out: </label>
+                <label>{{ booking.check_in_date }} --></label>
+                <label>{{ booking.check_out_date }}</label><br>
+                <label>Total cost: {{ booking.calculate_total_cost }}</label>
+            </div>
+            <button class="button1" name="delete_item"> Delete</button>
+        </li>
+    </form>
+    {% empty %}
+    <li>No objects</li>
+    {% endfor %}
+</ul>
+<form method="post">
+    {% csrf_token %}
+    <button class="button1" name="confirm"> Confirm</button>
+</form>
+
+<form method="post">
+    {% csrf_token %}
+    <details>
+        <summary>Leave feedback</summary>
+        <input type="range" name="range" min="1" max="5"><br/>
+        <textarea name="text"></textarea><br/>
+        <button class="button1" type="submit" name="review">Leave feedback</button>
+    </details>
+</form>
+
+{% endblock %}

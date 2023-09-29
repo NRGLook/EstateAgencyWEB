@@ -1,0 +1,23 @@
+{% extends 'EstateAgency/base_agency.html' %}
+
+{% block header %}
+
+.horizontal-center {
+margin: 0 auto;
+display: table;
+}
+
+{% endblock %}
+
+{% block content %}
+<form method="post" class="horizontal-center">
+    {% csrf_token %}
+    {% for f in form %}
+    <p><label class="form-label" for="{{ f.id_for_label }}">{{f.label}}: </label>{{ f }}</p>
+    <div class="form-error">{{ f.errors }}</div>
+    {% endfor %}
+
+    <button class="button1">Sign In</button>
+</form>
+
+{% endblock %}

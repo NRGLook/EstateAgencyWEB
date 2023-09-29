@@ -1,0 +1,24 @@
+{% extends 'EstateAgency/base_agency.html' %}
+
+{% block head %}
+<meta name="description" content="Frequently asked questions and answers">
+<meta name="keywords" content="questions, answers, FAQ, information">
+{% endblock %}
+
+{% block content %}
+
+<h1 itemprop="headline">FAQ</h1>
+<ul itemprop="mainEntity" itemscope itemtype="http://schema.org/FAQPage">
+    {% for faq_item in faq_items %}
+    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/Question">
+        <details>
+            <summary itemprop="name">{{ faq_item.question }} - {{ faq_item.date_added }}</summary>
+            <div itemprop="acceptedAnswer" itemscope itemtype="http://schema.org/Answer">
+                <p itemprop="text">{{ faq_item.answer }}</p>
+            </div>
+        </details>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

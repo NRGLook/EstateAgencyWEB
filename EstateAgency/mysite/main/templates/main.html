@@ -1,0 +1,98 @@
+{% extends 'EstateAgency/base_agency.html' %}
+
+{% block head %}
+<meta name="description" content="Home. Latest article and information about partner companies">
+<meta name="keywords" content="article, latest article, partner companies, partnership">
+<style>
+    /* Custom CSS styles */
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .latest-article {
+        margin-bottom: 30px;
+    }
+
+    .partner-companies {
+        text-align: center;
+    }
+
+    .partner-list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .partner-item {
+        flex-grow: 1;
+        margin: 10px;
+    }
+
+    .partner-logo {
+        max-width: 100px;
+        height: auto;
+    }
+
+    /* Responsive adjustments */
+    @media screen and (max-width: 768px) {
+        .partner-list {
+            flex-wrap: wrap;
+        }
+
+        .partner-item {
+            flex-basis: calc(50% - 20px);
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="main-content">
+    <aside>
+        <a href="https://mak.by/ru/">
+            <img src="static/banner/mac.jpg" alt="Advertising banner" width="200">
+        </a>
+    </aside>
+
+    <section itemscope itemtype="http://schema.org/Article" class="latest-article">
+        <h2 itemprop="name">Latest article:</h2>
+        <h3 itemprop="headline">{{ latest_article.title }}</h3>
+        <p itemprop="description">{{ latest_article.content|slice:"200" }}
+            {% if latest_article.content|length > 200 %}...{% endif %}</p>
+    </section>
+
+    <article itemscope itemtype="http://schema.org/Organization" class="partner-companies">
+        <h2>Partner companies:</h2>
+        <ul class="partner-list">
+            <li itemprop="affiliation" itemscope itemtype="http://schema.org/Organization" class="partner-item">
+                <a href="https://alfabank.ru/">
+                    <img src="static/partners/alpha.png" alt="Logo 1" class="partner-logo">
+                </a>
+            </li>
+            <li itemprop="affiliation" itemscope itemtype="http://schema.org/Organization" class="partner-item">
+                <a href="https://www.amazon.com/">
+                    <img src="static/partners/amazon.png" alt="Logo 2" class="partner-logo">
+                </a>
+            </li>
+            <li itemprop="affiliation" itemscope itemtype="http://schema.org/Organization" class="partner-item">
+                <a href="https://github.com/">
+                    <img src="static/partners/github.png" alt="Logo 3" class="partner-logo">
+                </a>
+            </li>
+            <li itemprop="affiliation" itemscope itemtype="http://schema.org/Organization" class="partner-item">
+                <a href="https://vk.com/">
+                    <img src="static/partners/vk.png" alt="Logo 4" class="partner-logo">
+                </a>
+            </li>
+        </ul>
+    </article>
+</div>
+
+{% endblock %}

@@ -1,0 +1,90 @@
+{% extends 'EstateAgency/base_agency.html' %}
+
+{% block header %}
+
+.immovables-text {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333; /* Dark gray text */
+}
+
+.immovables-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.immovables-item {
+  cursor: pointer;
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #ddd; /* Light gray border */
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.immovables-item:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow on hover */
+}
+
+
+{% endblock %}
+
+{% block content %}
+<Label class="immovables-text" style="text-align: center;">Total earnings: {{total_earnings}}</Label><br>
+<Label class="immovables-text" style="text-align: center;">Average bill: {{average_bill}}</Label><br><br>
+<Label class="immovables-text" style="text-align: center;">The most popular object: {{most_popular_immovables}}</Label><br>
+<Label class="immovables-text" style="text-align: center;">It has a total of {{total_bookings}} bookings</Label><br>
+
+<img src="data:image/png;base64,{{ plot_data }}">
+
+<ul class="immovables-list">
+    {% for booking in bookings %}
+    <li class="immovables-item">
+        <div class="immovables-text">
+            <label>Name: {{ booking.client }}</label><br>
+            <label>Phone: {{ booking.client.phone_number }}</label><br>
+            <label>Has child: {{ booking.has_child }}</label><br>
+            <label>Check-In: {{ booking.check_in_date }}</label><br>
+            <label>Check-Out: {{ booking.check_out_date }}</label><br>
+            <label>Status: {{ booking.status }}</label><br>
+            <label>Total cost: {{ booking.calculate_total_cost }}</label>
+        </div>
+    </li>
+    {% empty %}
+    <li>No booking</li>
+    {% endfor %}
+</ul>
+
+<table border="2" style="width:100%;">
+    <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Has child</th>
+        <th>Check-In</th>
+        <th>Check-Out</th>
+        <th>Status</th>
+        <th>Total cost</th>
+    </tr>
+    {% for booking in bookings %}
+    <tr>
+        <td>{{ booking.client }}</td>
+        <td> {{ booking.client.phone_number }}</td>
+        <td> {{ booking.has_child }}</td>
+        <td> {{ booking.check_in_date }}</td>
+        <td> {{ booking.check_out_date }}</td>
+        <td>{{ booking.status }}</td>
+        <br>
+        <td> {{ booking.calculate_total_cost }}</td>
+    </tr>
+    {% empty %}
+    <li>No booking</li>
+    {% endfor %}
+</table>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends 'EstateAgency/base_agency.html' %}
+
+{% block head %}
+<meta name="description" content="Page with promotional codes and coupons">
+<meta name="keywords" content="promotional codes, coupons, promotions, discounts">
+{% endblock %}
+
+{% block content %}
+
+<h1>Promotional codes and coupons</h1>
+
+<table border="10px">
+    <tr>
+        <th>Code</th>
+        <th>Description</th>
+        <th></th>
+        <th>Valid</th>
+    </tr>
+    {% for coupon in coupons_true %}
+    <tr>
+        <td>{{ coupon.code }}</td>
+        <td colspan="2">{{ coupon.description }}</td>
+        <td>Yes</td>
+    </tr>
+    {% endfor %}
+    {% for coupon in coupons_false %}
+    <tr>
+        <td>{{ coupon.code }}</td>
+        <td colspan="2">{{ coupon.description }}</td>
+        <td>No</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

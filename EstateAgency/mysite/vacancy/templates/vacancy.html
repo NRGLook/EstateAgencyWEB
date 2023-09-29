@@ -1,0 +1,22 @@
+{% extends 'EstateAgency/base_agency.html' %}
+
+{% block head %}
+<meta name="description" content="List of vacancies">
+<meta name="keywords" content="vacancies, work, employment">
+{% endblock %}
+
+{% block content %}
+
+<h1>List of vacancies</h1>
+<ul>
+    {% for vacancy in vacancies %}
+    <li itemscope itemtype="http://schema.org/JobPosting">
+        <h2 itemprop="title">{{ vacancy.title }}</h2>
+        <p itemprop="description">{{ vacancy.description }}</p>
+        <p>Requirements: <span itemprop="qualifications">{{ vacancy.requirements }}</span></p>
+    </li>
+    {% endfor %}
+</ul>
+
+
+{% endblock %}

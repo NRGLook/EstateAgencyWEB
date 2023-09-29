@@ -1,0 +1,31 @@
+{% extends 'EstateAgency/base_agency.html' %}
+
+{% block head %}
+<meta name="description" content="Reviews about our company">
+<meta name="keywords" content="reviews, feedback, rating, ratings">
+{% endblock %}
+
+{% block content %}
+
+<h1>Отзывы</h1>
+<ul>
+    {% for review in reviews %}
+    <li itemscope itemtype="http://schema.org/Review">
+        <p itemprop="author">Author: {{ review.author }}</p>
+        <p itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+            Grade: <span itemprop="ratingValue">{{ review.rating }}</span>
+        </p>
+        <p itemprop="reviewBody">{{ review.text }}</p>
+        <p itemprop="datePublished">Date: {{ review.date }}</p>
+    </li>
+    {% endfor %}
+</ul>
+
+{% if user.is_authenticated %}
+<label onclick="window.location.href='{%url 'profile_user:profile' %}';">Add a review</label>
+{% else %}
+<label onclick="window.location.href='{%url 'auth_user:register' %}';">Add a review</label>
+{% endif %}
+
+
+{% endblock %}

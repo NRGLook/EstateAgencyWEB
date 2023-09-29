@@ -1,0 +1,40 @@
+{% extends 'EstateAgency/base_agency.html' %}
+
+{% block header %}
+.immovables-text {
+  font-size: 24px; /* Reduced font size for better readability */
+  line-height: 1.4; /* Improved line height for better spacing */
+  margin-bottom: 10px; /* Increased margin for spacing */
+  text-align: center;
+  color: #333; /* Dark gray text color for better contrast */
+}
+
+{% endblock %}
+
+{% block content %}
+{% if user.is_superuser %}
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div style="text-align: center;" class="immovables-text">
+        <label >Price:</label>
+        <input type="number" min="0" step="any" name="price" required><br>
+
+        <label >Capacity:</label>
+        <input type="number" min="0" name="capacity" required><br>
+
+        <label>Photo:</label>
+        <input type="file" name="photo" required><br>
+
+        <label >Category:</label>
+        <select class="register-button" name="select">
+            {% for category in categories %}
+            <option value="{{ category.id }}"> {{ category.name }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <button class="button1" name="create_immovables">Create</button>
+    </div>
+</form>
+{%endif%}
+
+{% endblock %}
