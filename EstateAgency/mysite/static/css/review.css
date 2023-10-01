@@ -1,0 +1,153 @@
+/* Стили для формы отзывов */
+
+/* Стили для заголовка формы */
+.form-title {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Стили для текстового поля ввода имени */
+.form-input-text[name="name"] {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    color: #666;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Стили для текстового поля ввода email */
+.form-input-text[name="email"] {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #666;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Стили для текстового поля ввода отзыва */
+.form-input-textarea[name="review"] {
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+/* Стили для кнопки отправки */
+.form-submit-button {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Стили для кнопки отправки при наведении */
+.form-submit-button:hover {
+    background-color: #555;
+}
+
+/* Стили для ссылки "Оставить отзыв" */
+.form-link {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+/* Стили для ссылки "Оставить отзыв" при наведении */
+.form-link:hover {
+    text-decoration: underline;
+    color: #0055a5;
+}
+
+/* Стили для успешного сообщения об отправке */
+.form-success-message {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #009900;
+    font-weight: bold;
+}
+
+/* Стили для сообщения об ошибке */
+.form-error-message {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Стили для страницы с отзывами */
+
+/* Стили для заголовка страницы */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Стили для элементов списка отзывов */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Стили для каждого отзыва */
+li {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Стили для имени автора отзыва */
+p[itemprop="author"] {
+    font-weight: bold;
+    color: #0073e6;
+    margin: 0;
+}
+
+/* Стили для оценки отзыва */
+p[itemprop="reviewRating"] {
+    font-weight: bold;
+    color: #009900;
+    margin: 0;
+}
+
+/* Стили для текста отзыва */
+p[itemprop="reviewBody"] {
+    margin: 0;
+}
+
+/* Стили для даты публикации отзыва */
+p[itemprop="datePublished"] {
+    color: #666;
+    margin: 0;
+}
+
+/* Стили для кнопки "Add a review" */
+label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #0073e6;
+    text-decoration: underline;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+}
+
+/* Стили для кнопки "Add a review" при наведении */
+label:hover {
+    color: #0055a5;
+}

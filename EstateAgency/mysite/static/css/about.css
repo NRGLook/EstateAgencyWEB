@@ -1,0 +1,79 @@
+/*-----------------about page-----------------*/
+/* О компании: Использовать трансформацию для отображения логотипа */
+.logo {
+    transform: rotate(15deg);
+}
+
+/* Для сертификата */
+.certificate {
+    border: 2px solid #003f7d;
+    background-image: url('/static/images/certificate-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    z-index: 1;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.certificate h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Оформление элементов страницы */
+.history-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.history-item {
+    margin-bottom: 20px;
+}
+
+.certificate-details {
+    font-weight: bold;
+    font-size: 20px;
+    color: #003f7d;
+}
+
+.video, .audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Добавьте другие стили для видео и аудио по вашему выбору */
+
+/* Дополнительные стили для плавающей навигации */
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 63, 125, 0.9);
+    z-index: 2;
+    padding: 10px 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.fixed-nav .nav-item {
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.fixed-nav .nav-item:hover {
+    color: #ff8c00;
+}
+
+/* Добавьте другие стили для оформления видео и аудио по вашему выбору */

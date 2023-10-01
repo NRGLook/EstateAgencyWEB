@@ -5372,3 +5372,472 @@ DEBUG 2023-10-01 15:10:32,674 __init__ interactive is False
 DEBUG 2023-10-01 15:10:32,674 __init__ platform is win32
 DEBUG 2023-10-01 15:10:32,722 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
 DEBUG 2023-10-01 15:10:32,723 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 15:15:40,781 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 15:15:41,038 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 15:15:41,043 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 15:15:41,044 __init__ interactive is False
+DEBUG 2023-10-01 15:15:41,044 __init__ platform is win32
+DEBUG 2023-10-01 15:15:41,090 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 15:15:41,091 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 15:17:51,599 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 15:17:51,873 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 15:17:51,877 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 15:17:51,878 __init__ interactive is False
+DEBUG 2023-10-01 15:17:51,878 __init__ platform is win32
+DEBUG 2023-10-01 15:17:51,925 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 15:17:51,926 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 15:20:20,425 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 15:20:20,688 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 15:20:20,692 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 15:20:20,693 __init__ interactive is False
+DEBUG 2023-10-01 15:20:20,693 __init__ platform is win32
+DEBUG 2023-10-01 15:20:20,740 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 15:20:20,742 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 15:21:11,385 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 15:21:11,657 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 15:21:11,660 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 15:21:11,661 __init__ interactive is False
+DEBUG 2023-10-01 15:21:11,661 __init__ platform is win32
+DEBUG 2023-10-01 15:21:11,708 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 15:21:11,710 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 16:07:42,555 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 16:07:43,236 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 16:07:43,247 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:07:43,248 __init__ interactive is False
+DEBUG 2023-10-01 16:07:43,248 __init__ platform is win32
+DEBUG 2023-10-01 16:07:43,297 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:07:43,304 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 16:08:33,411 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 16:08:33,696 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 16:08:33,700 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:08:33,701 __init__ interactive is False
+DEBUG 2023-10-01 16:08:33,701 __init__ platform is win32
+DEBUG 2023-10-01 16:08:33,751 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:08:33,752 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 16:12:35,886 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 16:12:36,152 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 16:12:36,156 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:12:36,157 __init__ interactive is False
+DEBUG 2023-10-01 16:12:36,157 __init__ platform is win32
+DEBUG 2023-10-01 16:12:36,203 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:12:36,205 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 16:14:34,817 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 16:14:35,094 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 16:14:35,097 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:14:35,098 __init__ interactive is False
+DEBUG 2023-10-01 16:14:35,098 __init__ platform is win32
+DEBUG 2023-10-01 16:14:35,148 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:14:35,149 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 16:20:10,199 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 16:20:10,467 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 16:20:10,471 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:20:10,472 __init__ interactive is False
+DEBUG 2023-10-01 16:20:10,473 __init__ platform is win32
+DEBUG 2023-10-01 16:20:10,520 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:20:10,521 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 16:21:50,819 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 16:21:51,089 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 16:21:51,093 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:21:51,094 __init__ interactive is False
+DEBUG 2023-10-01 16:21:51,094 __init__ platform is win32
+DEBUG 2023-10-01 16:21:51,144 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:21:51,145 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 16:27:18,750 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 16:27:19,034 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 16:27:19,038 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:27:19,039 __init__ interactive is False
+DEBUG 2023-10-01 16:27:19,039 __init__ platform is win32
+DEBUG 2023-10-01 16:27:19,086 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:27:19,087 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 16:35:37,171 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 16:35:37,433 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 16:35:37,437 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:35:37,439 __init__ interactive is False
+DEBUG 2023-10-01 16:35:37,439 __init__ platform is win32
+DEBUG 2023-10-01 16:35:37,485 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:35:37,486 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 16:38:55,205 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 16:38:55,468 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 16:38:55,472 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:38:55,473 __init__ interactive is False
+DEBUG 2023-10-01 16:38:55,473 __init__ platform is win32
+DEBUG 2023-10-01 16:38:55,520 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:38:55,521 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-10-01 16:39:06,140 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-01 16:39:06,530 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-01 16:39:06,534 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-01 16:39:06,842 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-01 16:39:17,168 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-01 16:39:17,298 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-01 16:39:17,302 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-01 16:39:17,768 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+INFO 2023-10-01 16:54:27,271 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 16:54:27,545 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 16:54:27,549 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:54:27,551 __init__ interactive is False
+DEBUG 2023-10-01 16:54:27,551 __init__ platform is win32
+DEBUG 2023-10-01 16:54:27,598 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:54:27,600 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+ERROR 2023-10-01 16:54:32,327 log Internal Server Error: /employee/
+Traceback (most recent call last):
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Web2023\EstateAgency\mysite\employee\views.py", line 8, in contacts
+    return render(request, 'employee.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static', expected 'endblock'. Did you forget to register or load this tag?
+INFO 2023-10-01 16:55:00,508 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 16:55:00,775 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 16:55:00,778 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:55:00,779 __init__ interactive is False
+DEBUG 2023-10-01 16:55:00,779 __init__ platform is win32
+DEBUG 2023-10-01 16:55:00,828 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 16:55:00,829 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-10-01 16:55:42,623 Image Importing BlpImagePlugin
+DEBUG 2023-10-01 16:55:42,625 Image Importing BmpImagePlugin
+DEBUG 2023-10-01 16:55:42,625 Image Importing BufrStubImagePlugin
+DEBUG 2023-10-01 16:55:42,628 Image Importing CurImagePlugin
+DEBUG 2023-10-01 16:55:42,632 Image Importing DcxImagePlugin
+DEBUG 2023-10-01 16:55:42,639 Image Importing DdsImagePlugin
+DEBUG 2023-10-01 16:55:42,642 Image Importing EpsImagePlugin
+DEBUG 2023-10-01 16:55:42,656 Image Importing FitsImagePlugin
+DEBUG 2023-10-01 16:55:42,658 Image Importing FitsStubImagePlugin
+DEBUG 2023-10-01 16:55:42,660 Image Importing FliImagePlugin
+DEBUG 2023-10-01 16:55:42,662 Image Importing FpxImagePlugin
+DEBUG 2023-10-01 16:55:42,665 Image Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG 2023-10-01 16:55:42,665 Image Importing FtexImagePlugin
+DEBUG 2023-10-01 16:55:42,667 Image Importing GbrImagePlugin
+DEBUG 2023-10-01 16:55:42,668 Image Importing GifImagePlugin
+DEBUG 2023-10-01 16:55:42,668 Image Importing GribStubImagePlugin
+DEBUG 2023-10-01 16:55:42,670 Image Importing Hdf5StubImagePlugin
+DEBUG 2023-10-01 16:55:42,671 Image Importing IcnsImagePlugin
+DEBUG 2023-10-01 16:55:42,676 Image Importing IcoImagePlugin
+DEBUG 2023-10-01 16:55:42,678 Image Importing ImImagePlugin
+DEBUG 2023-10-01 16:55:42,680 Image Importing ImtImagePlugin
+DEBUG 2023-10-01 16:55:42,681 Image Importing IptcImagePlugin
+DEBUG 2023-10-01 16:55:42,683 Image Importing JpegImagePlugin
+DEBUG 2023-10-01 16:55:42,683 Image Importing Jpeg2KImagePlugin
+DEBUG 2023-10-01 16:55:42,683 Image Importing McIdasImagePlugin
+DEBUG 2023-10-01 16:55:42,685 Image Importing MicImagePlugin
+DEBUG 2023-10-01 16:55:42,686 Image Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG 2023-10-01 16:55:42,686 Image Importing MpegImagePlugin
+DEBUG 2023-10-01 16:55:42,688 Image Importing MpoImagePlugin
+DEBUG 2023-10-01 16:55:42,695 Image Importing MspImagePlugin
+DEBUG 2023-10-01 16:55:42,696 Image Importing PalmImagePlugin
+DEBUG 2023-10-01 16:55:42,701 Image Importing PcdImagePlugin
+DEBUG 2023-10-01 16:55:42,702 Image Importing PcxImagePlugin
+DEBUG 2023-10-01 16:55:42,702 Image Importing PdfImagePlugin
+DEBUG 2023-10-01 16:55:42,709 Image Importing PixarImagePlugin
+DEBUG 2023-10-01 16:55:42,711 Image Importing PngImagePlugin
+DEBUG 2023-10-01 16:55:42,711 Image Importing PpmImagePlugin
+DEBUG 2023-10-01 16:55:42,711 Image Importing PsdImagePlugin
+DEBUG 2023-10-01 16:55:42,713 Image Importing QoiImagePlugin
+DEBUG 2023-10-01 16:55:42,715 Image Importing SgiImagePlugin
+DEBUG 2023-10-01 16:55:42,717 Image Importing SpiderImagePlugin
+DEBUG 2023-10-01 16:55:42,719 Image Importing SunImagePlugin
+DEBUG 2023-10-01 16:55:42,720 Image Importing TgaImagePlugin
+DEBUG 2023-10-01 16:55:42,723 Image Importing TiffImagePlugin
+DEBUG 2023-10-01 16:55:42,723 Image Importing WebPImagePlugin
+DEBUG 2023-10-01 16:55:42,745 Image Importing WmfImagePlugin
+DEBUG 2023-10-01 16:55:42,747 Image Importing XbmImagePlugin
+DEBUG 2023-10-01 16:55:42,750 Image Importing XpmImagePlugin
+DEBUG 2023-10-01 16:55:42,752 Image Importing XVThumbImagePlugin
+INFO 2023-10-01 17:17:23,103 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:17:23,413 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:17:23,417 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:17:23,418 __init__ interactive is False
+DEBUG 2023-10-01 17:17:23,418 __init__ platform is win32
+DEBUG 2023-10-01 17:17:23,470 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:17:23,472 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+ERROR 2023-10-01 17:17:30,710 log Internal Server Error: /vacancy/
+Traceback (most recent call last):
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Web2023\EstateAgency\mysite\vacancy\views.py", line 8, in vacancy_list
+    return render(request, 'vacancy.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'static', expected 'endblock'. Did you forget to register or load this tag?
+INFO 2023-10-01 17:18:16,440 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:18:16,711 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:18:16,715 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:18:16,716 __init__ interactive is False
+DEBUG 2023-10-01 17:18:16,716 __init__ platform is win32
+DEBUG 2023-10-01 17:18:16,763 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:18:16,764 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-10-01 17:23:03,224 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:23:03,227 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:23:03,229 __init__ interactive is False
+DEBUG 2023-10-01 17:23:03,229 __init__ platform is win32
+DEBUG 2023-10-01 17:23:03,272 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:23:03,274 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 17:23:15,432 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:23:15,702 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:23:15,705 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:23:15,706 __init__ interactive is False
+DEBUG 2023-10-01 17:23:15,707 __init__ platform is win32
+DEBUG 2023-10-01 17:23:15,752 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:23:15,753 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 17:28:44,291 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:28:44,567 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:28:44,571 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:28:44,572 __init__ interactive is False
+DEBUG 2023-10-01 17:28:44,572 __init__ platform is win32
+DEBUG 2023-10-01 17:28:44,618 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:28:44,620 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 17:35:59,775 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:36:00,038 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:36:00,041 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:36:00,042 __init__ interactive is False
+DEBUG 2023-10-01 17:36:00,042 __init__ platform is win32
+DEBUG 2023-10-01 17:36:00,087 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:36:00,088 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-10-01 17:36:04,943 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-01 17:36:05,179 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-01 17:36:05,183 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-01 17:36:05,509 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+INFO 2023-10-01 17:42:17,662 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:42:17,922 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:42:17,925 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:42:17,927 __init__ interactive is False
+DEBUG 2023-10-01 17:42:17,927 __init__ platform is win32
+DEBUG 2023-10-01 17:42:17,974 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:42:17,976 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 17:42:29,497 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:42:29,757 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:42:29,760 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:42:29,761 __init__ interactive is False
+DEBUG 2023-10-01 17:42:29,762 __init__ platform is win32
+DEBUG 2023-10-01 17:42:29,808 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:42:29,810 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-10-01 17:42:37,504 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-01 17:42:37,806 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-01 17:42:37,808 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-01 17:42:38,109 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+INFO 2023-10-01 17:43:09,081 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:43:09,340 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:43:09,344 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:43:09,345 __init__ interactive is False
+DEBUG 2023-10-01 17:43:09,345 __init__ platform is win32
+DEBUG 2023-10-01 17:43:09,392 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:43:09,394 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 17:44:04,245 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:44:04,507 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:44:04,510 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:44:04,511 __init__ interactive is False
+DEBUG 2023-10-01 17:44:04,512 __init__ platform is win32
+DEBUG 2023-10-01 17:44:04,562 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:44:04,564 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 17:45:31,027 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:45:31,321 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:45:31,324 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:45:31,326 __init__ interactive is False
+DEBUG 2023-10-01 17:45:31,326 __init__ platform is win32
+DEBUG 2023-10-01 17:45:31,376 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:45:31,377 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 17:47:26,644 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:47:26,899 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:47:26,903 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:47:26,904 __init__ interactive is False
+DEBUG 2023-10-01 17:47:26,904 __init__ platform is win32
+DEBUG 2023-10-01 17:47:26,951 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:47:26,952 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 17:47:35,763 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:47:36,032 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:47:36,036 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:47:36,037 __init__ interactive is False
+DEBUG 2023-10-01 17:47:36,037 __init__ platform is win32
+DEBUG 2023-10-01 17:47:36,087 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:47:36,089 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 17:49:25,629 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:49:25,905 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:49:25,910 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:49:25,911 __init__ interactive is False
+DEBUG 2023-10-01 17:49:25,911 __init__ platform is win32
+DEBUG 2023-10-01 17:49:25,958 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:49:25,960 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-10-01 17:49:33,766 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-01 17:49:34,025 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-01 17:49:34,030 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-01 17:49:34,587 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+INFO 2023-10-01 17:50:27,253 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:50:27,533 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:50:27,537 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:50:27,538 __init__ interactive is False
+DEBUG 2023-10-01 17:50:27,538 __init__ platform is win32
+DEBUG 2023-10-01 17:50:27,586 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:50:27,587 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 17:50:55,290 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:50:55,552 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:50:55,556 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:50:55,557 __init__ interactive is False
+DEBUG 2023-10-01 17:50:55,557 __init__ platform is win32
+DEBUG 2023-10-01 17:50:55,604 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:50:55,606 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 17:52:18,591 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:52:18,868 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:52:18,872 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:52:18,873 __init__ interactive is False
+DEBUG 2023-10-01 17:52:18,873 __init__ platform is win32
+DEBUG 2023-10-01 17:52:18,922 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:52:18,923 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-01 17:53:10,439 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:53:10,738 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:53:10,741 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:53:10,743 __init__ interactive is False
+DEBUG 2023-10-01 17:53:10,743 __init__ platform is win32
+DEBUG 2023-10-01 17:53:10,791 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:53:10,793 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-10-01 17:53:19,744 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-01 17:53:19,882 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-01 17:53:19,885 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-01 17:53:20,138 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+INFO 2023-10-01 17:54:10,567 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:54:10,829 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:54:10,832 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:54:10,833 __init__ interactive is False
+DEBUG 2023-10-01 17:54:10,834 __init__ platform is win32
+DEBUG 2023-10-01 17:54:10,880 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:54:10,882 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-10-01 17:54:14,457 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-01 17:54:14,607 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-01 17:54:14,613 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-01 17:54:15,158 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+INFO 2023-10-01 17:55:20,499 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-01 17:55:20,778 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-01 17:55:20,782 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:55:20,783 __init__ interactive is False
+DEBUG 2023-10-01 17:55:20,783 __init__ platform is win32
+DEBUG 2023-10-01 17:55:20,832 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-01 17:55:20,834 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-10-01 17:55:34,258 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-01 17:55:34,461 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-01 17:55:34,466 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-01 17:55:34,797 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-01 17:55:37,274 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-01 17:55:37,410 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-01 17:55:37,413 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-01 17:55:38,034 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None

@@ -1,0 +1,47 @@
+/* Стили для таблицы */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000; /* Убираем двойные линии между ячейками */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center; /* Горизонтальное выравнивание информации в ячейках */
+    vertical-align: middle; /* Вертикальное выравнивание информации в ячейках */
+}
+
+/* Стили для заголовка таблицы */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Стили для пустых ячеек */
+td:empty {
+    background-color: #e0e0e0;
+}
+
+/* Стилизация строк и столбцов */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Четные строки */
+}
+
+tr:nth-child(odd) {
+    background-color: #fff; /* Нечетные строки */
+}
+
+/* Убираем границы таблицы для последней строки */
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Убираем границы таблицы для последнего столбца */
+tr td:last-child {
+    border-right: none;
+}

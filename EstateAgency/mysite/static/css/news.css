@@ -1,0 +1,57 @@
+
+
+/*------------------news page------------------*/
+/* Стили для списка новостей */
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-article {
+    width: calc(33.33% - 20px);
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Стили для заголовка новости */
+.news-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Стили для изображения новости */
+.news-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Стили для краткой информации о новости */
+.news-summary {
+    font-size: 16px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* Стили для кнопки "Читать далее" */
+.read-more-btn {
+    display: inline-block;
+    background-color: #003f7d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+    background-color: #372966;
+}

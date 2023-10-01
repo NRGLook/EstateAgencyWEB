@@ -1,0 +1,51 @@
+/*---------------employee(contacts) page-------------------*/
+/* Общие стили для сотрудников */
+.employee {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Стили для фото сотрудника */
+.employee img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Делаем изображение круглым */
+  margin-right: 20px;
+}
+
+/* Стили для информации о сотруднике */
+.employee-info {
+  flex: 1;
+}
+
+/* Стили для имени сотрудника */
+.employee-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Стили для должности сотрудника */
+.employee-position {
+  font-style: italic;
+}
+
+/* Стили для контактных данных сотрудника */
+.employee-contact {
+  margin-top: 10px;
+}
+
+/* Стили для телефона сотрудника */
+.employee-phone {
+  font-weight: bold;
+}
+
+/* Стили для почты сотрудника */
+.employee-email {
+  color: #007bff; /* Ссылка с синим цветом */
+  text-decoration: none;
+}
+
+.employee-email:hover {
+  text-decoration: underline; /* Подчеркиваем ссылку при наведении */
+}

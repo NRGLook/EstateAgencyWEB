@@ -1,0 +1,48 @@
+/* Стили для списка компаний партнеров */
+.partner-companies {
+  text-align: center;
+  padding: 30px;
+}
+
+.partner-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-item {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: #3498db;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.partner-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+/* Стили для наименования компании */
+.partner-item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Анимация при наведении на компанию */
+.partner-item:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

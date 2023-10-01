@@ -3,10 +3,10 @@
 {% block head %}
 <meta name="description" content="Our employees">
 <meta name="keywords" content="employees, staff, team">
+<link rel="stylesheet" type="text/css" href="/static/css/employee.css">
 {% endblock %}
 
 {% block content %}
-
 <h1>Our employees</h1>
 <ul>
     {% for employee in employees %}
@@ -19,6 +19,4 @@
     </li>
     {% endfor %}
 </ul>
-
-
 {% endblock %}

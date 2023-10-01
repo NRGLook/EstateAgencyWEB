@@ -1,21 +1,20 @@
 {% extends 'EstateAgency/base_agency.html' %}
 
 {% block head %}
+<link rel="stylesheet" type="text/css" href="/static/css/news.css">
 <meta name="description" content="Latest news and articles">
 <meta name="keywords" content="news, articles, information">
 {% endblock %}
 
 {% block content %}
-
-<ul>
+<div class="news-container">
     {% for news in news_list %}
-    <li itemscope itemtype="http://schema.org/Product">
-        <h3 itemprop="headline">{{ news.title }}</h3>
-        <img itemprop="image" src="{{ news.image.url }}" alt="{{ news.title }}" width="100" style="float: left;">
-        <p itemprop="description">{{ news.content|slice:"100" }}{% if news.content|length > 100 %}...{% endif %}</p>
-        <a itemprop="url" href="{% url 'news:current_news' news.id %}">Read more</a>
-    </li>
+    <div class="news-article" itemscope itemtype="http://schema.org/Product">
+        <h3 itemprop="headline" class="news-title">{{ news.title }}</h3>
+        <img itemprop="image" src="{{ news.image.url }}" alt="{{ news.title }}" class="news-image">
+        <p itemprop="description" class="news-summary">{{ news.content|slice:"100" }}{% if news.content|length > 100 %}...{% endif %}</p>
+        <a itemprop="url" href="{% url 'news:current_news' news.id %}" class="read-more-btn">Read more</a>
+    </div>
     {% endfor %}
-</ul>
-
+</div>
 {% endblock %}

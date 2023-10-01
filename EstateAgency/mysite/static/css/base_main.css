@@ -65,7 +65,7 @@ header {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: black;
+    color: white; /* Цвет текста изменен на белый */
     transition: background-color 0.3s ease;
 }
 

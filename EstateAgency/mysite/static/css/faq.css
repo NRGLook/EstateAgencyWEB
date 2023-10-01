@@ -1,0 +1,76 @@
+/*-------------------------------faq page------------------------------*/
+/* Стили для списка часто-задаваемых вопросов (FAQ) */
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для заголовка вопроса */
+.faq-question {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Стили для ответа на вопрос */
+.faq-answer {
+    display: none; /* По умолчанию ответ скрыт */
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Стили для показа ответа при активации вопроса */
+.faq-item.active .faq-answer {
+    display: block;
+}
+/* Стили для списка часто задаваемых вопросов и ответов (FAQ) */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+details {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    display: none;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+details[open] p {
+    display: block;
+}

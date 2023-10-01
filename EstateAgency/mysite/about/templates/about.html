@@ -3,51 +3,39 @@
 {% block head %}
 <meta name="description" content="Estate Agency">
 <meta name="keywords" content="agency, Minsk, estate agency, contacts">
+<link rel="stylesheet" type="text/css" href="/static/css/about.css"> <!-- Подключаем ваши стили -->
 {% endblock %}
 
-
 {% block content %}
-
 <figure itemscope itemtype="http://schema.org/EstateAgency">
     <p><img src="/static/logo/logo.png" alt="Logo company" width="400"></p>
     <figcaption itemprop="name">Estate Agency</figcaption>
 </figure>
 
-<a href="#n1">Certificate</a>
+<a href="#n1" class="fixed-nav">Certificate</a>
+
 <article>
-    <p itemprop="description"><b>Estate Agency</b> <abbr title="Estate Agency"></abbr>
+    <p itemprop="description"><b>Estate Agency</b>
         We are the oldest real estate agency in our region, specializing in helping clients find and acquire their ideal
         homes. Our experience and professionalism make us a trusted partner in the real estate world.
-        <dfn title="Minsk"></dfn>
-        **Imperial Homes Realty**
-
-We are the oldest real estate agency in our region, specializing in helping clients find and acquire their ideal homes.
-        Our experience and professionalism make us a trusted partner in the real estate world.
-
         <em itemprop="numberOfImmovables">200+ estate objects</em>
-        **Our Advantages:**
-1. **Experience and Reliability:** We have been operating in the real estate market for many years and have gained the
-        trust of thousands of clients. Our experts possess deep knowledge of the real estate industry and are always
-        ready to share their insights with you.
-2. **Diverse Property Portfolio:** Our catalog includes a variety of property options, ranging from cozy apartments to
-        luxurious villas. We will assist you in finding the perfect home that suits your needs and budget.
-3. **Personalized Approach:** We understand that every client is unique, which is why we provide an individualized
-        approach to each transaction. Your needs and desires are always our priority.
-4. **Professional Consultations:** Our experts are ready to assist you with any real estate-related questions,
-        including legal matters, financial inquiries, and property evaluations.
-5. **Transparency and Honesty:** We value the trust of our clients and always provide honest information about each
-        property. There will be no unpleasant surprises.
-**Our Services:**
-- **Property Search and Selection:** We will help you find the perfect home, taking into account your preferences
-        and budget.
-- **Legal Support:** Our legal team will provide you with full support in legal matters related to buying
-        or selling property.
-- **Property Evaluation:** We will conduct a professional property evaluation to determine its accurate value.
-- **Consultations:** We are ready to answer your questions and provide you with all the necessary information about
-        the real estate market.
-        <s>casino «Royal»,</s>
+        <strong>Our Advantages:</strong>
+        <ol>
+            <li>Experience and Reliability: We have been operating in the real estate market for many years and have gained the
+                trust of thousands of clients. Our experts possess deep knowledge of the real estate industry and are always
+                ready to share their insights with you.</li>
+            <li>Diverse Property Portfolio: Our catalog includes a variety of property options, ranging from cozy apartments to
+                luxurious villas. We will assist you in finding the perfect home that suits your needs and budget.</li>
+            <li>Personalized Approach: We understand that every client is unique, which is why we provide an individualized
+                approach to each transaction. Your needs and desires are always our priority.</li>
+            <li>Professional Consultations: Our experts are ready to assist you with any real estate-related questions,
+                including legal matters, financial inquiries, and property evaluations.</li>
+            <li>Transparency and Honesty: We value the trust of our clients and always provide honest information about each
+                property. There will be no unpleasant surprises.</li>
+        </ol>
     </p>
 </article>
+
 <article>
     <p>Founder: <q cite="https://www.instagram.com/tikhanionok/"><sup>We aim</sup> to make the process of buying or
         selling real estate as comfortable and secure as possible for you.
@@ -56,6 +44,7 @@ We are the oldest real estate agency in our region, specializing in helping clie
     </p>
     <hr>
 </article>
+
 <article>
     <p>
         To operate the site uses <abbr title="База данных">DB</abbr> <u>sqlite3</u><br>
@@ -70,7 +59,6 @@ We are the oldest real estate agency in our region, specializing in helping clie
     </p>
     <p>For example <var>first_name</var>:</p>
     <p>Example of a registered user<samp>Ilya</samp></p>
-    <p>When registering, you can enter your name, for example<kbd>Ilya</kbd>
     <hr>
 </article>
 
@@ -137,7 +125,6 @@ We are the oldest real estate agency in our region, specializing in helping clie
 </article>
 
 <h2 id="n1" itemprop="certificate">Certificate</h2>
-<!--<img src="/static/other/sert.png" alt="Certificate" width="400">-->
 
 <div style="border: 3px #333671 solid; width: 500px">
     <h1 style="color: #0059b2" align="center">UNIFIED ESTATE REGISTER</h1>
@@ -166,7 +153,5 @@ We are the oldest real estate agency in our region, specializing in helping clie
     <p align="right"><small>Tel. +375 (29) 849-40-96</small></p>
     <p align="right">e-mail: office@cinema.by<small></small></p>
 </div>
-
-
 
 {% endblock %}

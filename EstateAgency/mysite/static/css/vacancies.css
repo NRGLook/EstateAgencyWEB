@@ -1,0 +1,38 @@
+/* vacancies.css */
+
+/* Стили для списка вакансий */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    clear: both; /* Очистка после каждой вакансии */
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Стили для элементов вакансий */
+h2[itemprop="title"] {
+    font-weight: bold;
+}
+
+p[itemprop="description"] {
+    margin-top: 10px;
+}
+
+p[itemprop="qualifications"] {
+    font-weight: bold;
+    color: #007BFF;
+}
