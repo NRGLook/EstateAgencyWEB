@@ -1,3 +1,47 @@
+/* Стили для заголовка таблицы */
+.table-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Стили для таблицы промокодов */
+.promo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Стили для ячеек в таблице */
+.promo-table td, .promo-table th {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9; /* Фон пустых ячеек */
+}
+
+/* Стили для строк в таблице */
+.promo-table tr {
+  background-color: #fff;
+}
+
+/* Стили для заголовков столбцов */
+.promo-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Стили для активных промокодов */
+.active-promo {
+  background-color: #c6f6d5; /* Цвет фона для активных промокодов */
+}
+
+/* Стили для архивных промокодов */
+.archived-promo {
+  background-color: #ffe8e8; /* Цвет фона для архивных промокодов */
+}
+
 /* Стили для таблицы */
 table {
     border-collapse: collapse;

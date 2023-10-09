@@ -8,14 +8,14 @@
 
 {% block content %}
 <h1>Our employees</h1>
-<ul>
+<ul class="staff-container">
     {% for employee in employees %}
-    <li>
-        <img src="{{ employee.photo.url }}" alt="{{ employee.name }}" width="100">
-        <h2>{{ employee.name }}</h2>
-        <p>Job title : {{ employee.position }}</p>
-        <p>Email: {{ employee.email }}</p>
-        <p>Number: {{ employee.phone }}</p>
+    <li class="staff-member">
+        <img class="staff-photo" src="{{ employee.photo.url }}" alt="{{ employee.name }}">
+        <h2 class="staff-name">{{ employee.name }}</h2>
+        <p class="staff-role">Job title: {{ employee.position }}</p>
+        <p class="staff-contact">Email: {{ employee.email }}</p>
+        <p class="staff-contact">Number: {{ employee.phone }}</p>
     </li>
     {% endfor %}
 </ul>

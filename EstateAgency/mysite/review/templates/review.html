@@ -9,23 +9,23 @@
     <link rel="stylesheet" type="text/css" href="/static/css/review.css">
 </head>
 <body>
-    <h1>Отзывы</h1>
-    <ul>
+    <h1 class="review-title">Отзывы</h1>
+    <ul class="review-container">
         {% for review in reviews %}
-        <li itemscope itemtype="http://schema.org/Review">
-            <p itemprop="author">Author: {{ review.author }}</p>
-            <p itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-                Grade: <span itemprop="ratingValue">{{ review.rating }}</span>
+        <li class="review-item" itemscope itemtype="http://schema.org/Review">
+            <p class="review-author" itemprop="author">Author: {{ review.author }}</p>
+            <p class="review-rating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                Grade: <span class="rating-value" itemprop="ratingValue">{{ review.rating }}</span>
             </p>
-            <p itemprop="reviewBody">{{ review.text }}</p>
-            <p itemprop="datePublished">Date: {{ review.date }}</p>
+            <p class="review-text" itemprop="reviewBody">{{ review.text }}</p>
+            <p class="review-date" itemprop="datePublished">Date: {{ review.date }}</p>
         </li>
         {% endfor %}
     </ul>
     {% if user.is_authenticated %}
-    <label onclick="window.location.href='{%url 'profile_user:profile' %}';">Add a review</label>
+    <label class="add-review-label" onclick="window.location.href='{%url 'profile_user:profile' %}';">Add a review</label>
     {% else %}
-    <label onclick="window.location.href='{%url 'auth_user:register' %}';">Add a review</label>
+    <label class="add-review-label" onclick="window.location.href='{%url 'auth_user:register' %}';">Add a review</label>
     {% endif %}
 </body>
 </html>

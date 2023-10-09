@@ -1,79 +1,48 @@
-/*-----------------about page-----------------*/
-/* О компании: Использовать трансформацию для отображения логотипа */
-.logo {
-    transform: rotate(15deg);
+/* Стили для логотипа компании с использованием трансформации */
+.company-logo {
+  transform: rotate(45deg); /* Пример трансформации */
 }
 
-/* Для сертификата */
+/* Стили для сертификата */
 .certificate {
-    border: 2px solid #003f7d;
-    background-image: url('/static/images/certificate-bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 20px;
-    z-index: 1;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-image: url('border.png') 30 round; /* Граница с изображением */
+  background-image: url('certificate-background.jpg'); /* Фоновое изображение */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-clip: padding-box;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Тень */
+  z-index: 1; /* z-index для управления слоями */
+  font-family: 'Arial', sans-serif;
+  text-align: center; /* Выравнивание текста по центру */
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.certificate h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-/* Оформление элементов страницы */
-.history-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+/* Стили для истории по годам */
+.history {
+  list-style-type: none;
+  padding: 0;
 }
 
 .history-item {
-    margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.certificate-details {
-    font-weight: bold;
-    font-size: 20px;
-    color: #003f7d;
+/* Стили для реквизитов */
+.requisites {
+  font-family: 'Verdana', sans-serif; /* Выделение шрифтом */
+  font-size: 16px;
 }
 
-.video, .audio {
-    width: 100%;
-    margin-top: 20px;
+/* Стили для видео и аудио элементов */
+video,
+audio {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  border: 1px solid #ccc; /* Пример стиля для видео/аудио */
 }
-
-/* Добавьте другие стили для видео и аудио по вашему выбору */
-
-/* Дополнительные стили для плавающей навигации */
-.fixed-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 63, 125, 0.9);
-    z-index: 2;
-    padding: 10px 0;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.fixed-nav .nav-item {
-    font-size: 16px;
-    cursor: pointer;
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-}
-
-.fixed-nav .nav-item:hover {
-    color: #ff8c00;
-}
-
-/* Добавьте другие стили для оформления видео и аудио по вашему выбору */

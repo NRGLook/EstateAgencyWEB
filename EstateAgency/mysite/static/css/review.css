@@ -1,4 +1,60 @@
-/* Стили для формы отзывов */
+/* Стили для заголовка отзывов */
+.review-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Цвет текста */
+  margin-bottom: 20px;
+}
+
+/* Стили для контейнера отзывов */
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Стили для отдельного отзыва */
+.review-item {
+  width: 48%; /* Ширина отзыва */
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Стили для изменения фона при наведении */
+.review-item:hover {
+  background-color: #fff;
+}
+
+/* Стили для имени автора отзыва */
+.review-author {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Стили для текста отзыва */
+.review-text {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Стили для ссылки "Читать полностью" */
+.read-more-link {
+  color: #007bff; /* Цвет ссылки */
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Стили для изменения цвета ссылки при наведении */
+.read-more-link:hover {
+  color: #0056b3; /* Цвет ссылки при наведении */
+}
 
 /* Стили для заголовка формы */
 .form-title {

@@ -1,0 +1,69 @@
+/* Стили для контейнера вакансий */
+.vacancy-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стили для отдельной вакансии */
+.vacancy-item {
+  width: 45%; /* Ширина блока вакансии */
+  float: left; /* Плавающий блок */
+  margin: 0 2.5%; /* Расстояние между блоками */
+  box-sizing: border-box; /* Учесть отступы и границы в общей ширине блока */
+}
+
+/* Стили для очистки плавающих блоков */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Дополнительные стили, по желанию */
+.vacancy-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vacancy-description {
+  font-size: 14px;
+  color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    clear: both; /* Очистка после каждой вакансии */
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Стили для элементов вакансий */
+h2[itemprop="title"] {
+    font-weight: bold;
+}
+
+p[itemprop="description"] {
+    margin-top: 10px;
+}
+
+p[itemprop="qualifications"] {
+    font-weight: bold;
+    color: #007BFF;
+}

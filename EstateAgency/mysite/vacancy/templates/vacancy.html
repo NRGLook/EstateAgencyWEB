@@ -3,20 +3,21 @@
 {% block head %}
 <meta name="description" content="List of vacancies">
 <meta name="keywords" content="vacancies, work, employment">
-<link rel="stylesheet" type="text/css" href="/static/css/vacancies.css">
+<link rel="stylesheet" type="text/css" href="/static/css/vacancy.css">
 {% endblock %}
 
 {% block content %}
 
 <h1>List of vacancies</h1>
-<ul>
+<ul class="vacancy-container">
     {% for vacancy in vacancies %}
-    <li itemscope itemtype="http://schema.org/JobPosting">
-        <h2 itemprop="title">{{ vacancy.title }}</h2>
-        <p itemprop="description">{{ vacancy.description }}</p>
-        <p>Requirements: <span itemprop="qualifications">{{ vacancy.requirements }}</span></p>
+    <li class="vacancy-item" itemscope itemtype="http://schema.org/JobPosting">
+        <h2 class="vacancy-title" itemprop="title">{{ vacancy.title }}</h2>
+        <p class="vacancy-description" itemprop="description">{{ vacancy.description }}</p>
+        <p class="vacancy-requirements">Requirements: <span class="vacancy-qualifications" itemprop="qualifications">{{ vacancy.requirements }}</span></p>
     </li>
     {% endfor %}
+    <div class="clearfix"></div> <!-- Очистка плавающих блоков -->
 </ul>
 
 {% endblock %}

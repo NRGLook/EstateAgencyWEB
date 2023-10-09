@@ -1,51 +1,47 @@
-/*---------------employee(contacts) page-------------------*/
-/* Общие стили для сотрудников */
-.employee {
+/* Стили для контейнера с сотрудниками */
+.staff-container {
   display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Распределение по горизонтали */
+  align-items: center; /* Выравнивание по вертикали */
+  list-style: none;
+  padding: 0;
 }
 
-/* Стили для фото сотрудника */
-.employee img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%; /* Делаем изображение круглым */
-  margin-right: 20px;
+/* Стили для отдельного сотрудника */
+.staff-member {
+  flex: 1; /* Распределение равномерно по горизонтали */
+  max-width: calc(33.333% - 20px); /* Ширина сотрудника, с учетом отступов */
+  margin: 10px;
+  text-align: center;
 }
 
-/* Стили для информации о сотруднике */
-.employee-info {
-  flex: 1;
+/* Стили для фотографии сотрудника */
+.staff-photo {
+  width: 100%;
+  max-width: 200px; /* Максимальная ширина фотографии */
+  height: auto;
+  border-radius: 50%; /* Закругленные углы для фото */
 }
 
-/* Стили для имени сотрудника */
-.employee-name {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-/* Стили для должности сотрудника */
-.employee-position {
-  font-style: italic;
-}
-
-/* Стили для контактных данных сотрудника */
-.employee-contact {
+/* Стили для описания сотрудника */
+.staff-description {
   margin-top: 10px;
 }
 
-/* Стили для телефона сотрудника */
-.employee-phone {
+/* Дополнительные стили, по желанию */
+.staff-name {
   font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
-/* Стили для почты сотрудника */
-.employee-email {
-  color: #007bff; /* Ссылка с синим цветом */
-  text-decoration: none;
+.staff-role {
+  font-size: 14px;
+  color: #555;
 }
 
-.employee-email:hover {
-  text-decoration: underline; /* Подчеркиваем ссылку при наведении */
+.staff-contact {
+  font-size: 14px;
+  margin-top: 5px;
 }

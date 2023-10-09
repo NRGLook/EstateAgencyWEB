@@ -13,7 +13,7 @@
         <h3 itemprop="headline" class="news-title">{{ news.title }}</h3>
         <img itemprop="image" src="{{ news.image.url }}" alt="{{ news.title }}" class="news-image">
         <p itemprop="description" class="news-summary">{{ news.content|slice:"100" }}{% if news.content|length > 100 %}...{% endif %}</p>
-        <a itemprop="url" href="{% url 'news:current_news' news.id %}" class="read-more-btn">Read more</a>
+        <a itemprop="url" href="{% url 'news:current_news' news.id %}" class="read-more-button">Read more</a>
     </div>
     {% endfor %}
 </div>

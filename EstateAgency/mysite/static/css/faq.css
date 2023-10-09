@@ -1,76 +1,101 @@
-/*-------------------------------faq page------------------------------*/
-/* Стили для списка часто-задаваемых вопросов (FAQ) */
-.faq-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+/* Стили для списка FAQ */
+.faq-list {
+  list-style-type: none;
+  padding: 0;
 }
 
+/* Стили для элемента FAQ */
 .faq-item {
-    margin-bottom: 20px;
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
 }
 
 /* Стили для заголовка вопроса */
 .faq-question {
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
-/* Стили для ответа на вопрос */
+/* Стили для развернутого ответа */
 .faq-answer {
-    display: none; /* По умолчанию ответ скрыт */
-    margin-top: 10px;
-    font-size: 16px;
-    line-height: 1.5;
+  display: none; /* Изначально скрываем ответы */
+  font-size: 16px;
 }
 
-/* Стили для показа ответа при активации вопроса */
+/* Стили для иконки (стрелки) */
+.faq-icon {
+  float: right;
+  font-size: 24px;
+  margin-left: 10px;
+  transform: rotate(0deg); /* Изначально иконка повернута */
+  transition: transform 0.3s ease;
+}
+
+/* Стили для активной иконки (при развертывании ответа) */
+.faq-item.active .faq-icon {
+  transform: rotate(180deg); /* Поворачиваем иконку при открытии ответа */
+}
+
+/* Стили для ссылки "Читать далее" (если нужно) */
+.read-more-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0074D9;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.read-more-link:hover {
+  color: #0056b3;
+}
+
+/* Стили для списка FAQ */
+.faq-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Стили для элемента FAQ */
+.faq-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Стили для заголовка вопроса */
+.faq-question {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Стили для развернутого ответа */
+.faq-answer {
+  font-size: 16px;
+  display: none; /* Изначально скрываем ответы */
+}
+
+/* Стили для иконки (стрелки) */
+.faq-icon::after {
+  content: "+"; /* Изначально отображаем плюс */
+  font-size: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Стили для активной иконки (при развертывании ответа) */
 .faq-item.active .faq-answer {
-    display: block;
-}
-/* Стили для списка часто задаваемых вопросов и ответов (FAQ) */
-h1 {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
+  display: block; /* Отображаем ответ при активности */
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 20px;
-}
-
-details {
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
-
-summary {
-    font-weight: bold;
-    cursor: pointer;
-}
-
-p {
-    display: none;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-top: 10px;
-}
-
-details[open] p {
-    display: block;
+/* Стили для изменения иконки при развертывании ответа */
+.faq-item.active .faq-icon::after {
+  content: "−"; /* Изменяем на минус */
 }

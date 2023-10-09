@@ -6,32 +6,36 @@
     <meta name="description" content="Page with promotional codes and coupons">
     <meta name="keywords" content="promotional codes, coupons, promotions, discounts">
     <title>Promotional codes and coupons</title>
-<link rel="stylesheet" type="text/css" href="/static/css/coupons.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/coupons.css">
 </head>
 <body>
-    <h1>Promotional codes and coupons</h1>
+    <h1 class="table-title">Promotional codes and coupons</h1>
 
-    <table class="promotional-table">
-        <tr>
-            <th>Code</th>
-            <th>Description</th>
-            <th></th>
-            <th>Valid</th>
-        </tr>
-        {% for coupon in coupons_true %}
-        <tr>
-            <td>{{ coupon.code }}</td>
-            <td colspan="2">{{ coupon.description }}</td>
-            <td>Yes</td>
-        </tr>
-        {% endfor %}
-        {% for coupon in coupons_false %}
-        <tr>
-            <td>{{ coupon.code }}</td>
-            <td colspan="2">{{ coupon.description }}</td>
-            <td>No</td>
-        </tr>
-        {% endfor %}
+    <table class="promo-table">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Description</th>
+                <th></th>
+                <th>Valid</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for coupon in coupons_true %}
+            <tr class="active-promo">
+                <td>{{ coupon.code }}</td>
+                <td colspan="2">{{ coupon.description }}</td>
+                <td>Yes</td>
+            </tr>
+            {% endfor %}
+            {% for coupon in coupons_false %}
+            <tr class="archived-promo">
+                <td>{{ coupon.code }}</td>
+                <td colspan="2">{{ coupon.description }}</td>
+                <td>No</td>
+            </tr>
+            {% endfor %}
+        </tbody>
     </table>
 </body>
 </html>

@@ -8,13 +8,13 @@
 
 {% block content %}
 <figure itemscope itemtype="http://schema.org/EstateAgency">
-    <p><img src="/static/logo/logo.png" alt="Logo company" width="400"></p>
-    <figcaption itemprop="name">Estate Agency</figcaption>
+    <p><img src="/static/logo/logo.png" alt="Logo company" width="400" class="company-logo"></p> <!-- Добавляем класс для логотипа -->
+    <figcaption itemprop="name" class="company-name">Estate Agency</figcaption> <!-- Добавляем класс для имени компании -->
 </figure>
 
 <a href="#n1" class="fixed-nav">Certificate</a>
 
-<article>
+<article class="certificate"> <!-- Добавляем класс для сертификата -->
     <p itemprop="description"><b>Estate Agency</b>
         We are the oldest real estate agency in our region, specializing in helping clients find and acquire their ideal
         homes. Our experience and professionalism make us a trusted partner in the real estate world.
@@ -75,12 +75,12 @@
 </article>
 
 <article>
-    <video controls style="width: 100%;">
+    <video controls style="width: 100%;" class="video"> <!-- Добавляем класс для видео -->
         <source src="/static/video/estateagency.mp4" type="video/mp4">
         Your browser does not support video playback.
     </video>
 
-    <audio controls style="width: 100%;">
+    <audio controls style="width: 100%;" class="audio"> <!-- Добавляем класс для аудио -->
         <source src="/static/mp3/lofi.mp3" type="audio/mp3">
         Your browser does not support audio playback.
     </audio>
@@ -93,8 +93,8 @@
 </article>
 
 <article>
-    <h2 itemprop="event">History of our company:</h2>
-    <ul>
+    <h2 itemprop="event" class="history">History of our company:</h2> <!-- Добавляем класс для истории по годам -->
+    <ul class="history"> <!-- Добавляем класс для истории по годам -->
         <li><strong>Establishment:</strong> The real estate agency was founded in 20001 in Lepel.</li>
         <li><strong>Construction: </strong> The construction of the agency's facilities began in 1985 and was completed
             in 2002.</li>
@@ -124,9 +124,9 @@
     <p itemprop="email">Email: estateagency@gmail.com</p>
 </article>
 
-<h2 id="n1" itemprop="certificate">Certificate</h2>
+<h2 id="n1" class="certificate">Certificate</h2> <!-- Добавляем класс для сертификата -->
 
-<div style="border: 3px #333671 solid; width: 500px">
+<div style="border: 3px #333671 solid; width: 500px" class="certificate"> <!-- Добавляем класс для сертификата -->
     <h1 style="color: #0059b2" align="center">UNIFIED ESTATE REGISTER</h1>
     <h1 style="color: red" align="center">CERTIFICATE</h1>
     <h1 style="color: #0059b2" align="center">ON DATA INCLUSION</h1>
