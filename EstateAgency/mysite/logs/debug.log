@@ -6547,3 +6547,153 @@ DEBUG 2023-10-15 15:28:57,496 __init__ interactive is False
 DEBUG 2023-10-15 15:28:57,496 __init__ platform is win32
 DEBUG 2023-10-15 15:28:57,622 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
 DEBUG 2023-10-15 15:28:57,622 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-15 16:21:23,041 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-15 16:21:23,913 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-15 16:21:23,928 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 16:21:23,928 __init__ interactive is False
+DEBUG 2023-10-15 16:21:23,928 __init__ platform is win32
+DEBUG 2023-10-15 16:21:24,003 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 16:21:24,012 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-15 16:23:05,001 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-15 16:23:05,280 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-15 16:23:05,284 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 16:23:05,285 __init__ interactive is False
+DEBUG 2023-10-15 16:23:05,285 __init__ platform is win32
+DEBUG 2023-10-15 16:23:05,322 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 16:23:05,322 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-15 16:39:24,820 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-15 16:39:25,071 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-15 16:39:25,086 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 16:39:25,086 __init__ interactive is False
+DEBUG 2023-10-15 16:39:25,086 __init__ platform is win32
+DEBUG 2023-10-15 16:39:25,134 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 16:39:25,134 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+WARNING 2023-10-15 16:40:39,192 log Not Found: /favicon.ico
+INFO 2023-10-15 16:51:39,148 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-15 16:51:39,430 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-15 16:51:39,430 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 16:51:39,430 __init__ interactive is False
+DEBUG 2023-10-15 16:51:39,430 __init__ platform is win32
+DEBUG 2023-10-15 16:51:39,492 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 16:51:39,492 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-15 16:56:10,857 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-15 16:56:11,127 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-15 16:56:11,127 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 16:56:11,127 __init__ interactive is False
+DEBUG 2023-10-15 16:56:11,127 __init__ platform is win32
+DEBUG 2023-10-15 16:56:11,174 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 16:56:11,174 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-15 17:00:36,393 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-15 17:00:36,659 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-15 17:00:36,659 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 17:00:36,659 __init__ interactive is False
+DEBUG 2023-10-15 17:00:36,659 __init__ platform is win32
+DEBUG 2023-10-15 17:00:36,705 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 17:00:36,705 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-15 17:02:55,467 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-15 17:02:55,739 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-15 17:02:55,755 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 17:02:55,755 __init__ interactive is False
+DEBUG 2023-10-15 17:02:55,755 __init__ platform is win32
+DEBUG 2023-10-15 17:02:55,802 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 17:02:55,802 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-15 17:03:41,186 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-15 17:03:41,468 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-15 17:03:41,468 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 17:03:41,468 __init__ interactive is False
+DEBUG 2023-10-15 17:03:41,468 __init__ platform is win32
+DEBUG 2023-10-15 17:03:41,515 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 17:03:41,515 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+WARNING 2023-10-15 17:04:01,857 log Not Found: /favicon.ico
+INFO 2023-10-15 17:05:23,612 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-15 17:05:23,913 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-15 17:05:23,913 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 17:05:23,913 __init__ interactive is False
+DEBUG 2023-10-15 17:05:23,928 __init__ platform is win32
+DEBUG 2023-10-15 17:05:23,975 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 17:05:23,975 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+ERROR 2023-10-15 17:05:25,002 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Web2023\EstateAgency\mysite\main\views.py", line 9, in home
+    return render(request, 'main.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article_detail' not found. 'article_detail' is not a valid view function or pattern name.
+INFO 2023-10-15 17:05:51,087 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-15 17:05:51,369 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-15 17:05:51,385 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 17:05:51,385 __init__ interactive is False
+DEBUG 2023-10-15 17:05:51,385 __init__ platform is win32
+DEBUG 2023-10-15 17:05:51,432 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 17:05:51,432 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-15 17:11:29,109 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-15 17:11:29,379 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-15 17:11:29,379 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 17:11:29,379 __init__ interactive is False
+DEBUG 2023-10-15 17:11:29,379 __init__ platform is win32
+DEBUG 2023-10-15 17:11:29,426 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-15 17:11:29,426 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json

@@ -1,7 +1,7 @@
 /* Стили для шапки */
 .header {
     background-color: #40035c; /* Цвет фона */
-    color: #fff; /* Цвет текста */
+    color: #fff; /* Цвет теcdкста */
     padding: 10px 0; /* Внутренние отступы сверху и снизу */
     display: flex; /* Устанавливаем flex-контейнер */
     justify-content: space-between; /* Равномерное распределение элементов */
@@ -22,9 +22,27 @@
     cursor: grab pointer; /* Изменение курсора при наведении на элементы навигации */
 }
 
+/* Стили для контейнера с контентом и футером */
+.container {
+    min-height: 100vh; /* Минимальная высота равная высоте видимой области */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стили для шапки */
+.header {
+    background-color: #40035c;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Стили для основного контента */
 .main-content {
-    margin: 10px; /* Внешние отступы */
+    margin: 10px;
+    flex: 1; /* Основной контент будет занимать всю доступную высоту */
 }
 
 /* Стили для футера */
@@ -37,5 +55,6 @@
 }
 
 .footer-item {
-    cursor: pointer; /* Изменение курсора при наведении на элементы футера */
+    cursor: pointer;
 }
+

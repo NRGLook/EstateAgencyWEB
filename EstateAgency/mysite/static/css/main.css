@@ -1,22 +1,74 @@
-/* Стили для блоков круглой формы */
-.partner-item {
-    display: inline-block; /* Размещаем блоки в одной строке */
-    width: 150px; /* Устанавливаем ширину блока */
-    border-radius: 50%; /* Создаем круглую форму */
-    background-color: #0074D9; /* Устанавливаем цвет фона */
-    text-align: center; /* Выравниваем текст по центру */
-    margin: 10px; /* Устанавливаем внешние отступы между блоками */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Добавляем тень */
+/* Стили для списка компаний партнеров */
+.partner-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.partner {
+    width: 150px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%; /* Круглая форма */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Стили для наименования компании */
+.company-name {
+    font-family: Arial, sans-serif; /* Настройка шрифта */
+    font-size: 18px;
+    letter-spacing: 1px; /* Кернинг */
+}
+
+/* Стили для логотипов компаний */
+.partner-logo-container {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%; /* Круглая форма */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .partner-logo {
-    max-width: 100px; /* Устанавливаем максимальную ширину для логотипа */
-    display: block; /* Преобразуем логотип в блочный элемент для центрирования */
-    margin: 10px auto; /* Центрируем логотип по горизонтали */
+    max-width: 80px;
+    max-height: 80px;
 }
 
-.company-name {
-    font-family: Arial, sans-serif; /* Устанавливаем шрифт для имени компании */
-    font-size: 16px; /* Устанавливаем размер шрифта */
-    color: #333; /* Устанавливаем цвет текста */
+@keyframes moveObject {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.banner-object {
+    animation: moveObject 4s linear infinite;
+    -webkit-animation: moveObject 4s linear infinite; /* Добавьте префикс для WebKit (Safari и Chrome) */
+    -moz-animation: moveObject 4s linear infinite; /* Добавьте префикс для Mozilla Firefox */
+}
+
+/* Стили для отображения инфо о последней статье */
+.latest-article {
+    position: relative;
+}
+
+/* Фиксированная навигация по сайту */
+nav {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
 }

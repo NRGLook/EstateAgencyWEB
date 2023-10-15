@@ -1,0 +1,108 @@
+/* Стили для элементов */
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Стили для атрибутов */
+a[href^="https://"] {
+    color: blue;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+}
+
+/* Стили для классов */
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.alert {
+    background-color: #ffc107;
+    color: #333;
+    padding: 10px;
+}
+
+/* Комбинации селекторов */
+ul > li {
+    list-style-type: square;
+}
+
+.header .logo {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Псевдоклассы */
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input:focus {
+    border: 1px solid #007bff;
+}
+
+/* Псевдоэлементы */
+p::first-letter {
+    font-size: 24px;
+}
+
+p::before {
+    content: "Контекст в начале: ";
+}
+
+p::after {
+    content: " Контекст в конце.";
+}
+
+ul::marker {
+    content: "\2022";
+}
+
+/* Медиа-запросы */
+@media (max-width: 768px) {
+    /* Стили для экранов с шириной до 768px */
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Стили для кнопок */
+button {
+    cursor: pointer;
+}
+
+/* Оформление текста */
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    text-indent: 2em;
+    line-height: 1.5;
+}
+
+/* Задний фон сайта */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+/* CSS Grid Layout для каталога товаров/услуг (пример) */
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.catalog-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
