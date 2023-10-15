@@ -1,48 +1,22 @@
-/* Стили для списка компаний партнеров */
-.partner-companies {
-  text-align: center;
-  padding: 30px;
-}
-
-.partner-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
+/* Стили для блоков круглой формы */
 .partner-item {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  background-color: #3498db;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.3s ease-in-out;
+    display: inline-block; /* Размещаем блоки в одной строке */
+    width: 150px; /* Устанавливаем ширину блока */
+    border-radius: 50%; /* Создаем круглую форму */
+    background-color: #0074D9; /* Устанавливаем цвет фона */
+    text-align: center; /* Выравниваем текст по центру */
+    margin: 10px; /* Устанавливаем внешние отступы между блоками */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Добавляем тень */
 }
 
 .partner-logo {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 10px;
+    max-width: 100px; /* Устанавливаем максимальную ширину для логотипа */
+    display: block; /* Преобразуем логотип в блочный элемент для центрирования */
+    margin: 10px auto; /* Центрируем логотип по горизонтали */
 }
 
-/* Стили для наименования компании */
-.partner-item a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-/* Анимация при наведении на компанию */
-.partner-item:hover {
-  transform: scale(1.1);
-  cursor: pointer;
+.company-name {
+    font-family: Arial, sans-serif; /* Устанавливаем шрифт для имени компании */
+    font-size: 16px; /* Устанавливаем размер шрифта */
+    color: #333; /* Устанавливаем цвет текста */
 }

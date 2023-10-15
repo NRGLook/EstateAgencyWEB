@@ -1,50 +1,49 @@
 {% extends 'EstateAgency/base_agency.html' %}
 
 {% block head %}
-<meta name="description" content="Home. Latest article and information about partner companies">
-<meta name="keywords" content="article, latest article, partner companies, partnership">
-<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    <meta name="description" content="Home. Latest article and information about partner companies">
+    <meta name="keywords" content="article, latest article, partner companies, partnership">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
 {% endblock %}
 
 {% block content %}
-
 <div class="main-content">
-    <aside class="banner-object"> <!-- Добавляем класс для анимации -->
+    <aside class="banner-object">
         <a href="https://mak.by/ru/">
             <img src="static/banner/mac.jpg" alt="Advertising banner" width="200">
         </a>
     </aside>
 
-    <section itemscope itemtype="http://schema.org/Article" class="latest-article">
+    <section itemscope itemtype="https://schema.org/Article" class="latest-article">
         <h2 itemprop="name">Latest article:</h2>
         <h3 itemprop="headline">{{ latest_article.title }}</h3>
         <p itemprop="description">{{ latest_article.content|slice:"200" }}
             {% if latest_article.content|length > 200 %}...{% endif %}</p>
     </section>
 
-    <article itemscope itemtype="http://schema.org/Organization" class="partner-companies">
+    <article itemscope itemtype="https://schema.org/Organization" class="partner-companies">
     <h2>Partner companies:</h2>
-    <div class="partner-list">
-        <ul>
-            <li itemprop="affiliation" itemscope itemtype="http://schema.org/Organization" class="partner-item company-block"> <!-- Добавляем классы для круглых блоков и стилей -->
+    <div class="partners">
+        <ul class="partner-logos">
+            <li itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" class="partner-item company-block">
                 <a href="https://alfabank.ru/">
                     <img src="static/partners/alpha.png" alt="Logo 1" class="partner-logo">
                 </a>
-                <span class="company-name">Alpha Bank</span> <!-- Добавляем класс для стилей шрифта и кернинга -->
+                <span class="company-name">Alpha Bank</span>
             </li>
-            <li itemprop="affiliation" itemscope itemtype="http://schema.org/Organization" class="partner-item company-block">
+            <li itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" class="partner-item company-block">
                 <a href="https://www.amazon.com/">
                     <img src="static/partners/amazon.png" alt="Logo 2" class="partner-logo">
                 </a>
                 <span class="company-name">Amazon</span>
             </li>
-            <li itemprop="affiliation" itemscope itemtype="http://schema.org/Organization" class="partner-item company-block">
+            <li itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" class="partner-item company-block">
                 <a href="https://github.com/">
                     <img src="static/partners/github.png" alt="Logo 3" class="partner-logo">
                 </a>
                 <span class="company-name">GitHub</span>
             </li>
-            <li itemprop="affiliation" itemscope itemtype="http://schema.org/Organization" class="partner-item company-block">
+            <li itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" class="partner-item company-block">
                 <a href="https://vk.com/">
                     <img src="static/partners/vk.png" alt="Logo 4" class="partner-logo">
                 </a>
@@ -53,7 +52,5 @@
         </ul>
     </div>
     </article>
-
 </div>
-
 {% endblock %}

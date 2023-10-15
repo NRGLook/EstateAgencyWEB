@@ -1,7 +1,36 @@
 /* Стили для логотипа компании с использованием трансформации */
+/* Добавляем анимацию к логотипу */
 .company-logo {
-  transform: rotate(45deg); /* Пример трансформации */
+    animation: pulse 2s infinite;
 }
+
+/* Добавляем бензиновый градиентный фон */
+body {
+    background: linear-gradient(to right, #1a88cc, #cc2520);
+    color: #fff; /* Цвет текста, чтобы он был виден на градиентном фоне */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Анимация для логотипа */
+.animation-logo {
+    transition: transform 0.3s ease; /* Добавляем анимацию */
+}
+
+.animation-logo:hover {
+    transform: scale(1.1); /* Масштабирование логотипа при наведении курсора */
+}
+
 
 /* Стили для сертификата */
 .certificate {
