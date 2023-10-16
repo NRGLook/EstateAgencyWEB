@@ -8,17 +8,15 @@
 
 {% block content %}
 
-<h1 itemprop="headline">FAQ</h1>
-<ul class="faq-list" itemprop="mainEntity" itemscope itemtype="http://schema.org/FAQPage">
+<h1 itemprop="headline" class="header_faq">FAQ</h1>
+<ul class="faq-item" itemprop="mainEntity" itemscope itemtype="http://schema.org/FAQPage">
     {% for faq_item in faq_items %}
-    <li class="faq-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/Question">
         <details>
             <summary itemprop="name" class="faq-question">{{ faq_item.question }} - {{ faq_item.date_added }}</summary>
             <div itemprop="acceptedAnswer" itemscope itemtype="http://schema.org/Answer">
                 <p itemprop="text" class="faq-answer">{{ faq_item.answer }}</p>
             </div>
         </details>
-    </li>
     {% endfor %}
 </ul>
 

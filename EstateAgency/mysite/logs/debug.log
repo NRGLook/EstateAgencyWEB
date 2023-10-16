@@ -7164,3 +7164,173 @@ DEBUG 2023-10-16 07:41:10,270 __init__ interactive is False
 DEBUG 2023-10-16 07:41:10,270 __init__ platform is win32
 DEBUG 2023-10-16 07:41:10,363 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
 DEBUG 2023-10-16 07:41:10,363 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-10-16 07:43:40,250 PngImagePlugin STREAM b'IHDR' 16 13
+DEBUG 2023-10-16 07:43:40,250 PngImagePlugin STREAM b'sRGB' 41 1
+DEBUG 2023-10-16 07:43:40,250 PngImagePlugin STREAM b'gAMA' 54 4
+DEBUG 2023-10-16 07:43:40,250 PngImagePlugin STREAM b'pHYs' 70 9
+DEBUG 2023-10-16 07:43:40,250 PngImagePlugin STREAM b'IDAT' 91 65445
+DEBUG 2023-10-16 07:43:40,250 Image Importing BlpImagePlugin
+DEBUG 2023-10-16 07:43:40,258 Image Importing BmpImagePlugin
+DEBUG 2023-10-16 07:43:40,258 Image Importing BufrStubImagePlugin
+DEBUG 2023-10-16 07:43:40,261 Image Importing CurImagePlugin
+DEBUG 2023-10-16 07:43:40,261 Image Importing DcxImagePlugin
+DEBUG 2023-10-16 07:43:40,266 Image Importing DdsImagePlugin
+DEBUG 2023-10-16 07:43:40,266 Image Importing EpsImagePlugin
+DEBUG 2023-10-16 07:43:40,290 Image Importing FitsImagePlugin
+DEBUG 2023-10-16 07:43:40,290 Image Importing FitsStubImagePlugin
+DEBUG 2023-10-16 07:43:40,296 Image Importing FliImagePlugin
+DEBUG 2023-10-16 07:43:40,296 Image Importing FpxImagePlugin
+DEBUG 2023-10-16 07:43:40,296 Image Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG 2023-10-16 07:43:40,296 Image Importing FtexImagePlugin
+DEBUG 2023-10-16 07:43:40,296 Image Importing GbrImagePlugin
+DEBUG 2023-10-16 07:43:40,306 Image Importing GifImagePlugin
+DEBUG 2023-10-16 07:43:40,306 Image Importing GribStubImagePlugin
+DEBUG 2023-10-16 07:43:40,306 Image Importing Hdf5StubImagePlugin
+DEBUG 2023-10-16 07:43:40,312 Image Importing IcnsImagePlugin
+DEBUG 2023-10-16 07:43:40,314 Image Importing IcoImagePlugin
+DEBUG 2023-10-16 07:43:40,322 Image Importing ImImagePlugin
+DEBUG 2023-10-16 07:43:40,322 Image Importing ImtImagePlugin
+DEBUG 2023-10-16 07:43:40,328 Image Importing IptcImagePlugin
+DEBUG 2023-10-16 07:43:40,331 Image Importing JpegImagePlugin
+DEBUG 2023-10-16 07:43:40,331 Image Importing Jpeg2KImagePlugin
+DEBUG 2023-10-16 07:43:40,331 Image Importing McIdasImagePlugin
+DEBUG 2023-10-16 07:43:40,334 Image Importing MicImagePlugin
+DEBUG 2023-10-16 07:43:40,334 Image Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG 2023-10-16 07:43:40,334 Image Importing MpegImagePlugin
+DEBUG 2023-10-16 07:43:40,339 Image Importing MpoImagePlugin
+DEBUG 2023-10-16 07:43:40,344 Image Importing MspImagePlugin
+DEBUG 2023-10-16 07:43:40,354 Image Importing PalmImagePlugin
+DEBUG 2023-10-16 07:43:40,354 Image Importing PcdImagePlugin
+DEBUG 2023-10-16 07:43:40,363 Image Importing PcxImagePlugin
+DEBUG 2023-10-16 07:43:40,363 Image Importing PdfImagePlugin
+DEBUG 2023-10-16 07:43:40,363 Image Importing PixarImagePlugin
+DEBUG 2023-10-16 07:43:40,363 Image Importing PngImagePlugin
+DEBUG 2023-10-16 07:43:40,378 Image Importing PpmImagePlugin
+DEBUG 2023-10-16 07:43:40,378 Image Importing PsdImagePlugin
+DEBUG 2023-10-16 07:43:40,378 Image Importing QoiImagePlugin
+DEBUG 2023-10-16 07:43:40,378 Image Importing SgiImagePlugin
+DEBUG 2023-10-16 07:43:40,386 Image Importing SpiderImagePlugin
+DEBUG 2023-10-16 07:43:40,386 Image Importing SunImagePlugin
+DEBUG 2023-10-16 07:43:40,386 Image Importing TgaImagePlugin
+DEBUG 2023-10-16 07:43:40,394 Image Importing TiffImagePlugin
+DEBUG 2023-10-16 07:43:40,394 Image Importing WebPImagePlugin
+DEBUG 2023-10-16 07:43:40,458 Image Importing WmfImagePlugin
+DEBUG 2023-10-16 07:43:40,458 Image Importing XbmImagePlugin
+DEBUG 2023-10-16 07:43:40,467 Image Importing XpmImagePlugin
+DEBUG 2023-10-16 07:43:40,467 Image Importing XVThumbImagePlugin
+DEBUG 2023-10-16 07:44:58,432 PngImagePlugin STREAM b'IHDR' 16 13
+DEBUG 2023-10-16 07:44:58,432 PngImagePlugin STREAM b'sRGB' 41 1
+DEBUG 2023-10-16 07:44:58,432 PngImagePlugin STREAM b'gAMA' 54 4
+DEBUG 2023-10-16 07:44:58,432 PngImagePlugin STREAM b'pHYs' 70 9
+DEBUG 2023-10-16 07:44:58,432 PngImagePlugin STREAM b'IDAT' 91 65445
+DEBUG 2023-10-16 07:45:28,748 PngImagePlugin STREAM b'IHDR' 16 13
+DEBUG 2023-10-16 07:45:28,748 PngImagePlugin STREAM b'sRGB' 41 1
+DEBUG 2023-10-16 07:45:28,748 PngImagePlugin STREAM b'gAMA' 54 4
+DEBUG 2023-10-16 07:45:28,748 PngImagePlugin STREAM b'pHYs' 70 9
+DEBUG 2023-10-16 07:45:28,748 PngImagePlugin STREAM b'IDAT' 91 65445
+DEBUG 2023-10-16 07:45:58,465 PngImagePlugin STREAM b'IHDR' 16 13
+DEBUG 2023-10-16 07:45:58,465 PngImagePlugin STREAM b'sRGB' 41 1
+DEBUG 2023-10-16 07:45:58,465 PngImagePlugin STREAM b'gAMA' 54 4
+DEBUG 2023-10-16 07:45:58,465 PngImagePlugin STREAM b'pHYs' 70 9
+DEBUG 2023-10-16 07:45:58,465 PngImagePlugin STREAM b'IDAT' 91 65445
+DEBUG 2023-10-16 07:46:26,116 PngImagePlugin STREAM b'IHDR' 16 13
+DEBUG 2023-10-16 07:46:26,116 PngImagePlugin STREAM b'sRGB' 41 1
+DEBUG 2023-10-16 07:46:26,116 PngImagePlugin STREAM b'gAMA' 54 4
+DEBUG 2023-10-16 07:46:26,116 PngImagePlugin STREAM b'pHYs' 70 9
+DEBUG 2023-10-16 07:46:26,116 PngImagePlugin STREAM b'IDAT' 91 65445
+DEBUG 2023-10-16 07:47:02,451 PngImagePlugin STREAM b'IHDR' 16 13
+DEBUG 2023-10-16 07:47:02,451 PngImagePlugin STREAM b'sRGB' 41 1
+DEBUG 2023-10-16 07:47:02,451 PngImagePlugin STREAM b'gAMA' 54 4
+DEBUG 2023-10-16 07:47:02,451 PngImagePlugin STREAM b'pHYs' 70 9
+DEBUG 2023-10-16 07:47:02,451 PngImagePlugin STREAM b'IDAT' 91 65445
+DEBUG 2023-10-16 07:47:36,552 PngImagePlugin STREAM b'IHDR' 16 13
+DEBUG 2023-10-16 07:47:36,552 PngImagePlugin STREAM b'sRGB' 41 1
+DEBUG 2023-10-16 07:47:36,552 PngImagePlugin STREAM b'gAMA' 54 4
+DEBUG 2023-10-16 07:47:36,552 PngImagePlugin STREAM b'pHYs' 70 9
+DEBUG 2023-10-16 07:47:36,552 PngImagePlugin STREAM b'IDAT' 91 65445
+DEBUG 2023-10-16 07:48:09,285 PngImagePlugin STREAM b'IHDR' 16 13
+DEBUG 2023-10-16 07:48:09,285 PngImagePlugin STREAM b'sRGB' 41 1
+DEBUG 2023-10-16 07:48:09,285 PngImagePlugin STREAM b'gAMA' 54 4
+DEBUG 2023-10-16 07:48:09,285 PngImagePlugin STREAM b'pHYs' 70 9
+DEBUG 2023-10-16 07:48:09,285 PngImagePlugin STREAM b'IDAT' 91 65445
+INFO 2023-10-16 08:16:15,618 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 08:16:16,094 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 08:16:16,094 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 08:16:16,094 __init__ interactive is False
+DEBUG 2023-10-16 08:16:16,108 __init__ platform is win32
+DEBUG 2023-10-16 08:16:16,173 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 08:16:16,189 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-16 08:18:33,087 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 08:18:33,519 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 08:18:33,535 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 08:18:33,535 __init__ interactive is False
+DEBUG 2023-10-16 08:18:33,535 __init__ platform is win32
+DEBUG 2023-10-16 08:18:33,614 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 08:18:33,614 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-10-16 08:32:14,776 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 08:32:15,164 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 08:32:15,171 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 08:32:16,080 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+WARNING 2023-10-16 08:35:48,335 log Not Found: /favicon.ico
+DEBUG 2023-10-16 08:36:46,419 PngImagePlugin STREAM b'IHDR' 16 13
+DEBUG 2023-10-16 08:36:46,419 PngImagePlugin STREAM b'sRGB' 41 1
+DEBUG 2023-10-16 08:36:46,419 PngImagePlugin STREAM b'gAMA' 54 4
+DEBUG 2023-10-16 08:36:46,423 PngImagePlugin STREAM b'pHYs' 70 9
+DEBUG 2023-10-16 08:36:46,423 PngImagePlugin STREAM b'IDAT' 91 35303
+DEBUG 2023-10-16 08:36:46,423 Image Importing BlpImagePlugin
+DEBUG 2023-10-16 08:36:46,423 Image Importing BmpImagePlugin
+DEBUG 2023-10-16 08:36:46,423 Image Importing BufrStubImagePlugin
+DEBUG 2023-10-16 08:36:46,423 Image Importing CurImagePlugin
+DEBUG 2023-10-16 08:36:46,430 Image Importing DcxImagePlugin
+DEBUG 2023-10-16 08:36:46,431 Image Importing DdsImagePlugin
+DEBUG 2023-10-16 08:36:46,431 Image Importing EpsImagePlugin
+DEBUG 2023-10-16 08:36:46,448 Image Importing FitsImagePlugin
+DEBUG 2023-10-16 08:36:46,448 Image Importing FitsStubImagePlugin
+DEBUG 2023-10-16 08:36:46,448 Image Importing FliImagePlugin
+DEBUG 2023-10-16 08:36:46,463 Image Importing FpxImagePlugin
+DEBUG 2023-10-16 08:36:46,463 Image Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG 2023-10-16 08:36:46,463 Image Importing FtexImagePlugin
+DEBUG 2023-10-16 08:36:46,463 Image Importing GbrImagePlugin
+DEBUG 2023-10-16 08:36:46,463 Image Importing GifImagePlugin
+DEBUG 2023-10-16 08:36:46,463 Image Importing GribStubImagePlugin
+DEBUG 2023-10-16 08:36:46,471 Image Importing Hdf5StubImagePlugin
+DEBUG 2023-10-16 08:36:46,471 Image Importing IcnsImagePlugin
+DEBUG 2023-10-16 08:36:46,481 Image Importing IcoImagePlugin
+DEBUG 2023-10-16 08:36:46,481 Image Importing ImImagePlugin
+DEBUG 2023-10-16 08:36:46,487 Image Importing ImtImagePlugin
+DEBUG 2023-10-16 08:36:46,487 Image Importing IptcImagePlugin
+DEBUG 2023-10-16 08:36:46,487 Image Importing JpegImagePlugin
+DEBUG 2023-10-16 08:36:46,487 Image Importing Jpeg2KImagePlugin
+DEBUG 2023-10-16 08:36:46,487 Image Importing McIdasImagePlugin
+DEBUG 2023-10-16 08:36:46,487 Image Importing MicImagePlugin
+DEBUG 2023-10-16 08:36:46,497 Image Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG 2023-10-16 08:36:46,497 Image Importing MpegImagePlugin
+DEBUG 2023-10-16 08:36:46,497 Image Importing MpoImagePlugin
+DEBUG 2023-10-16 08:36:46,497 Image Importing MspImagePlugin
+DEBUG 2023-10-16 08:36:46,497 Image Importing PalmImagePlugin
+DEBUG 2023-10-16 08:36:46,513 Image Importing PcdImagePlugin
+DEBUG 2023-10-16 08:36:46,515 Image Importing PcxImagePlugin
+DEBUG 2023-10-16 08:36:46,515 Image Importing PdfImagePlugin
+DEBUG 2023-10-16 08:36:46,519 Image Importing PixarImagePlugin
+DEBUG 2023-10-16 08:36:46,527 Image Importing PngImagePlugin
+DEBUG 2023-10-16 08:36:46,527 Image Importing PpmImagePlugin
+DEBUG 2023-10-16 08:36:46,527 Image Importing PsdImagePlugin
+DEBUG 2023-10-16 08:36:46,530 Image Importing QoiImagePlugin
+DEBUG 2023-10-16 08:36:46,530 Image Importing SgiImagePlugin
+DEBUG 2023-10-16 08:36:46,535 Image Importing SpiderImagePlugin
+DEBUG 2023-10-16 08:36:46,535 Image Importing SunImagePlugin
+DEBUG 2023-10-16 08:36:46,535 Image Importing TgaImagePlugin
+DEBUG 2023-10-16 08:36:46,535 Image Importing TiffImagePlugin
+DEBUG 2023-10-16 08:36:46,535 Image Importing WebPImagePlugin
+DEBUG 2023-10-16 08:36:46,543 Image Importing WmfImagePlugin
+DEBUG 2023-10-16 08:36:46,547 Image Importing XbmImagePlugin
+DEBUG 2023-10-16 08:36:46,547 Image Importing XpmImagePlugin
+DEBUG 2023-10-16 08:36:46,552 Image Importing XVThumbImagePlugin
+WARNING 2023-10-16 08:46:17,507 log Not Found: /favicon.ico
+INFO 2023-10-16 08:49:19,566 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 08:49:20,058 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 08:49:20,058 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 08:49:20,058 __init__ interactive is False
+DEBUG 2023-10-16 08:49:20,058 __init__ platform is win32
+DEBUG 2023-10-16 08:49:20,152 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 08:49:20,152 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json

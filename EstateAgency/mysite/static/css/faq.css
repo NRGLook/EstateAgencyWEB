@@ -1,101 +1,64 @@
-/* Стили для списка FAQ */
-.faq-list {
-  list-style-type: none;
-  padding: 0;
+.header_faq {
+    text-align: center;
 }
 
-/* Стили для элемента FAQ */
-.faq-item {
-  margin-bottom: 20px;
-  padding: 20px;
+/* Стиль для выпадающего списка (select) */
+details {
+  width: 1450px; /* Установите ширину по вашему выбору */
+  padding: 10px;
   border: 1px solid #ccc;
-  background-color: #f9f9f9;
-}
-
-/* Стили для заголовка вопроса */
-.faq-question {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  cursor: pointer;
-}
-
-/* Стили для развернутого ответа */
-.faq-answer {
-  display: none; /* Изначально скрываем ответы */
+  border-radius: 5px;
   font-size: 16px;
-}
-
-/* Стили для иконки (стрелки) */
-.faq-icon {
-  float: right;
-  font-size: 24px;
-  margin-left: 10px;
-  transform: rotate(0deg); /* Изначально иконка повернута */
-  transition: transform 0.3s ease;
-}
-
-/* Стили для активной иконки (при развертывании ответа) */
-.faq-item.active .faq-icon {
-  transform: rotate(180deg); /* Поворачиваем иконку при открытии ответа */
-}
-
-/* Стили для ссылки "Читать далее" (если нужно) */
-.read-more-link {
-  display: inline-block;
-  margin-top: 10px;
-  color: #0074D9;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.read-more-link:hover {
-  color: #0056b3;
-}
-
-/* Стили для списка FAQ */
-.faq-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-/* Стили для элемента FAQ */
-.faq-item {
-  margin-bottom: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
-}
-
-/* Стили для заголовка вопроса */
-.faq-question {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
+  background-color: #fff;
+  color: #333;
   cursor: pointer;
+  outline: none;
 }
 
-/* Стили для развернутого ответа */
+/* Стиль для опций выпадающего списка (option) */
+details option {
+  font-size: 16px;
+  padding: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Изменение стиля опции, когда она выбрана */
+details option:checked {
+  background-color: #007BFF; /* Пример выбранного цвета */
+  color: #fff;
+}
+
+/* Стили для карточки вопроса */
+.faq-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Для создания закругленных углов */
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%; /* Занимать всю ширину страницы */
+}
+
+/* Стили для текста вопроса */
+.faq-question {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Стили для текста ответа */
 .faq-answer {
   font-size: 16px;
-  display: none; /* Изначально скрываем ответы */
+  color: #000;
 }
 
-/* Стили для иконки (стрелки) */
-.faq-icon::after {
-  content: "+"; /* Изначально отображаем плюс */
-  font-size: 24px;
-  margin-left: 10px;
-  cursor: pointer;
+/* Удаление маркера списка */
+.faq-item::marker {
+  content: "";
 }
 
-/* Стили для активной иконки (при развертывании ответа) */
-.faq-item.active .faq-answer {
-  display: block; /* Отображаем ответ при активности */
-}
-
-/* Стили для изменения иконки при развертывании ответа */
-.faq-item.active .faq-icon::after {
-  content: "−"; /* Изменяем на минус */
+/* Скрытие маркера списка в Chrome */
+.faq-item summary::-webkit-details-marker {
+  display: none;
 }
