@@ -1,0 +1,50 @@
+/* Стили для контейнера с домами */
+.immovables-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Стили для отдельной карточки дома */
+.immovables-card {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: calc(50% - 20px); /* Две карточки в ряду */
+  box-sizing: border-box;
+  transition: transform 0.3s;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Стили для изображения дома */
+.immovables-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Стили для информации о доме */
+.immovables-info {
+  flex-grow: 1;
+  display: none;
+}
+
+/* Стили при наведении на карточку */
+.immovables-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.immovables-card:hover .immovables-info {
+  display: block;
+}

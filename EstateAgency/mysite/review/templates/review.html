@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Reviews about our company">
     <meta name="keywords" content="reviews, feedback, rating, ratings">
-    <title>Отзывы</title>
+    <title>Review</title>
     <link rel="stylesheet" type="text/css" href="/static/css/review.css">
 </head>
 <body>
-    <h1 class="review-title">Отзывы</h1>
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <h1 class="review-title">Review</h1>
     <ul class="review-container">
         {% for review in reviews %}
         <li class="review-item" itemscope itemtype="http://schema.org/Review">
@@ -17,15 +22,15 @@
             <p class="review-rating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                 Grade: <span class="rating-value" itemprop="ratingValue">{{ review.rating }}</span>
             </p>
-            <p class="review-text" itemprop="reviewBody">{{ review.text }}</p>
+            <p class "review-text" itemprop="reviewBody">{{ review.text }}</p>
             <p class="review-date" itemprop="datePublished">Date: {{ review.date }}</p>
         </li>
         {% endfor %}
     </ul>
     {% if user.is_authenticated %}
-    <label class="add-review-label" onclick="window.location.href='{%url 'profile_user:profile' %}';">Add a review</label>
+    <label class="add-review-label" onclick="window.location.href='{% url 'profile_user:profile' %}';">Add a review</label>
     {% else %}
-    <label class="add-review-label" onclick="window.location.href='{%url 'auth_user:register' %}';">Add a review</label>
+    <label class="add-review-label" onclick="window.location.href='{% url 'auth_user:register' %}';">Add a review</label>
     {% endif %}
 </body>
 </html>

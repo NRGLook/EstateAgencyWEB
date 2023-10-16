@@ -1,69 +1,80 @@
-/* Стили для контейнера вакансий */
-.vacancy-container {
+/* Стили для контейнера списка вакансий и footer */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/*
+.container {
+    position:absolute;
+    width: 900px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.background-rotate{
+    width:500px;
+    height:500px;
+    position:absolute;
+    overflow:hidden;
+    border-top-left-radius:40px;
+}
+*/
+
+/* Стили для контейнера списка вакансий */
+.vacancy-list {
   list-style: none;
-  margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Стили для отдельной вакансии */
 .vacancy-item {
-  width: 45%; /* Ширина блока вакансии */
-  float: left; /* Плавающий блок */
-  margin: 0 2.5%; /* Расстояние между блоками */
-  box-sizing: border-box; /* Учесть отступы и границы в общей ширине блока */
+  width: 100%; /* Размер одной вакансии (для двух вакансий в ряду) */
+  float: left; /* Перенос элементов влево */
+  clear: both; /* Предотвращение перекрытия с предыдущими элементами */
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Закругленные углы для карточек */
+  text-align: left; /* Выравнивание текста влево */
 }
 
-/* Стили для очистки плавающих блоков */
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Дополнительные стили, по желанию */
+/* Стили для заголовка вакансии */
 .vacancy-title {
-  font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 18px;
 }
 
+/* Стили для описания вакансии */
 .vacancy-description {
-  font-size: 14px;
-  color: #555;
+  font-size: 16px;
+  color: #333;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+/* Стили для описания вакансии */
+.vacancy-requirements {
+  font-size: 16px;
+  color: #333;
 }
 
-li {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    clear: both; /* Очистка после каждой вакансии */
-}
-
-h2 {
-    font-size: 20px;
-    margin: 0;
-}
-
-p {
-    margin: 0;
-}
-
-/* Стили для элементов вакансий */
-h2[itemprop="title"] {
-    font-weight: bold;
-}
-
-p[itemprop="description"] {
-    margin-top: 10px;
-}
-
-p[itemprop="qualifications"] {
-    font-weight: bold;
-    color: #007BFF;
+/* Стили для footer (нижнего колонтитула) */
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ccc;
+  text-align: center;
 }

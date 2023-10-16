@@ -1,209 +1,147 @@
-/* Стили для заголовка отзывов */
-.review-title {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333; /* Цвет текста */
-  margin-bottom: 20px;
+h1 {
+    text-align:center;
 }
 
 /* Стили для контейнера отзывов */
 .review-container {
+  list-style: none;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
-/* Стили для отдельного отзыва */
+/* Стили для отдельного отзыва (карточки) */
 .review-item {
-  width: 48%; /* Ширина отзыва */
-  margin-bottom: 20px;
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 20px 0;
   padding: 20px;
   border: 1px solid #ccc;
-  background-color: #f9f9f9;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease-in-out;
+  border-radius: 10px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  transition: transform 0.3s; /* Добавляем анимацию при наведении */
 }
 
-/* Стили для изменения фона при наведении */
 .review-item:hover {
-  background-color: #fff;
+    background-color: white; /* Белый фон для карточек */
+    transform: scale(1.05); /* Увеличение масштаба при наведении */
 }
 
-/* Стили для имени автора отзыва */
+/* Стили для имени автора */
 .review-author {
-  font-size: 16px;
   font-weight: bold;
+}
+
+/* Стили для рейтинга */
+.review-rating {
+  font-style: italic;
 }
 
 /* Стили для текста отзыва */
 .review-text {
-  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Стили для даты публикации */
+.review-date {
   color: #555;
-  margin-top: 10px;
 }
 
-/* Стили для ссылки "Читать полностью" */
-.read-more-link {
-  color: #007bff; /* Цвет ссылки */
-  text-decoration: none;
-  display: block;
-  margin-top: 10px;
-  transition: color 0.3s ease-in-out;
+/* Стили для кнопки добавления отзыва */
+.add-review-label {
+  display: block; /* Для переноса на следующую строку и занимания всей ширины */
+  width: fit-content; /* Размер кнопки по содержимому */
+  margin: 20px auto; /* Для выравнивания по центру */
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #000; /* Черный цвет текста */
+  cursor: pointer;
+  padding: 10px 20px; /* Увеличим отступы */
+  border: 2px solid white; /* Увеличим толщину границы и сделаем ее черной */
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Добавим анимацию при наведении */
 }
 
-/* Стили для изменения цвета ссылки при наведении */
-.read-more-link:hover {
-  color: #0056b3; /* Цвет ссылки при наведении */
+.add-review-label:hover {
+  background-color: #673ab7; /* Темно-фиолетовый цвет фона при наведении */
+  color: #fff; /* Белый цвет текста при наведении */
+  border-color: #471A64; /* Темно-фиолетовая граница при наведении */
 }
 
-/* Стили для заголовка формы */
-.form-title {
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
+.add-review-label:active {
+    background: radial-gradient(ellipse at center, #673ab7 0%, rgba(2,0,36,1) 25%, rgba(79,1,91,1) 100%); /* Deep Purple */
 }
 
-/* Стили для текстового поля ввода имени */
-.form-input-text[name="name"] {
-    font-family: 'Times New Roman', serif;
-    font-size: 16px;
-    color: #666;
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 100%;
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
 }
 
-/* Стили для текстового поля ввода email */
-.form-input-text[name="email"] {
-    font-family: 'Arial', sans-serif;
-    font-size: 14px;
-    color: #666;
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 100%;
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
 }
 
-/* Стили для текстового поля ввода отзыва */
-.form-input-textarea[name="review"] {
-    font-family: 'Verdana', sans-serif;
-    font-size: 14px;
-    color: #333;
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 100%;
-    height: 150px;
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
 }
 
-/* Стили для кнопки отправки */
-.form-submit-button {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #333;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
 }
 
-/* Стили для кнопки отправки при наведении */
-.form-submit-button:hover {
-    background-color: #555;
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
 }
 
-/* Стили для ссылки "Оставить отзыв" */
-.form-link {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    color: #0073e6;
-    text-decoration: none;
-}
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
 
-/* Стили для ссылки "Оставить отзыв" при наведении */
-.form-link:hover {
-    text-decoration: underline;
-    color: #0055a5;
-}
+    25% {
+        transform: translateX(-25%);
+    }
 
-/* Стили для успешного сообщения об отправке */
-.form-success-message {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #009900;
-    font-weight: bold;
-}
+    50% {
+        transform: translateX(-50%);
+    }
 
-/* Стили для сообщения об ошибке */
-.form-error-message {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #ff0000;
-    font-weight: bold;
-}
+    75% {
+        transform: translateX(-25%);
+    }
 
-/* Стили для страницы с отзывами */
-
-/* Стили для заголовка страницы */
-h1 {
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    color: #333;
-}
-
-/* Стили для элементов списка отзывов */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-/* Стили для каждого отзыва */
-li {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #f9f9f9;
-}
-
-/* Стили для имени автора отзыва */
-p[itemprop="author"] {
-    font-weight: bold;
-    color: #0073e6;
-    margin: 0;
-}
-
-/* Стили для оценки отзыва */
-p[itemprop="reviewRating"] {
-    font-weight: bold;
-    color: #009900;
-    margin: 0;
-}
-
-/* Стили для текста отзыва */
-p[itemprop="reviewBody"] {
-    margin: 0;
-}
-
-/* Стили для даты публикации отзыва */
-p[itemprop="datePublished"] {
-    color: #666;
-    margin: 0;
-}
-
-/* Стили для кнопки "Add a review" */
-label {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    color: #0073e6;
-    text-decoration: underline;
-    cursor: pointer;
-    display: block;
-    margin-top: 20px;
-}
-
-/* Стили для кнопки "Add a review" при наведении */
-label:hover {
-    color: #0055a5;
+    100% {
+        transform: translateX(1);
+    }
 }

@@ -1,91 +1,57 @@
-/* Стили для заголовка таблицы */
-.table-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
+/* Стили для таблицы */
+table {
+  width: 100%; /* Чтобы таблица распространялась на всю ширину страницы */
+  border-collapse: collapse; /* Убираем двойные линии между ячейками */
+  margin: 0; /* Убираем внешние отступы таблицы */
 }
 
-/* Стили для таблицы промокодов */
-.promo-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
+
+/* Стили для ячеек с фоном в пустых ячейках */
+td:empty {
+  background-color: #f5f5f5; /* Фон пустых ячеек */
 }
 
-/* Стили для ячеек в таблице */
-.promo-table td, .promo-table th {
-  padding: 10px;
-  text-align: center;
-  vertical-align: middle;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9; /* Фон пустых ячеек */
+/* Стили для заголовка таблицы над таблицей */
+.table-caption {
+    text-align: center; /* Выравнивание заголовка по центру */
+  font-weight: bold; /* Жирный текст */
+  padding: 10px; /* Отступы вокруг заголовка */
+    background: radial-gradient(ellipse at center, #673ab7 0%, rgba(2,0,36,1) 25%, rgba(79,1,91,1) 100%); /* Deep Purple */
+  color: #fff; /* Цвет текста заголовка */
 }
 
 /* Стили для строк в таблице */
-.promo-table tr {
-  background-color: #fff;
+tr {
+  background-color: #fff; /* Фон строк */
 }
 
-/* Стили для заголовков столбцов */
-.promo-table th {
-  background-color: #333;
-  color: #fff;
+/* Стили для четных строк */
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Фон четных строк */
+}
+
+/* Стили для столбцов (ячеек заголовка) */
+th {
+  text-align: center; /* Выравнивание текста по центру */
+  background-color: #333; /* Фон заголовка столбца */
+  color: #fff; /* Цвет текста заголовка */
+  padding: 10px; /* Отступы вокруг заголовка */
+}
+
+/* Стили для ячеек с информацией */
+td {
+  text-align: center; /* Горизонтальное выравнивание в центре */
+  vertical-align: middle; /* Вертикальное выравнивание по центру */
+  padding: 5px; /* Отступы вокруг ячейки с информацией */
+  border: 1px solid #ccc; /* Граница ячейки */
 }
 
 /* Стили для активных промокодов */
 .active-promo {
-  background-color: #c6f6d5; /* Цвет фона для активных промокодов */
+  background-color: #c9f9c9; /* Фон активных промокодов */
 }
 
 /* Стили для архивных промокодов */
 .archived-promo {
-  background-color: #ffe8e8; /* Цвет фона для архивных промокодов */
-}
-
-/* Стили для таблицы */
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-table, th, td {
-    border: 1px solid #000; /* Убираем двойные линии между ячейками */
-}
-
-th, td {
-    padding: 10px;
-    text-align: center; /* Горизонтальное выравнивание информации в ячейках */
-    vertical-align: middle; /* Вертикальное выравнивание информации в ячейках */
-}
-
-/* Стили для заголовка таблицы */
-th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-}
-
-/* Стили для пустых ячеек */
-td:empty {
-    background-color: #e0e0e0;
-}
-
-/* Стилизация строк и столбцов */
-tr:nth-child(even) {
-    background-color: #f2f2f2; /* Четные строки */
-}
-
-tr:nth-child(odd) {
-    background-color: #fff; /* Нечетные строки */
-}
-
-/* Убираем границы таблицы для последней строки */
-tr:last-child td {
-    border-bottom: none;
-}
-
-/* Убираем границы таблицы для последнего столбца */
-tr td:last-child {
-    border-right: none;
+  background-color: #ffc6c6; /* Фон архивных промокодов */
 }

@@ -7334,3 +7334,231 @@ DEBUG 2023-10-16 08:49:20,058 __init__ interactive is False
 DEBUG 2023-10-16 08:49:20,058 __init__ platform is win32
 DEBUG 2023-10-16 08:49:20,152 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
 DEBUG 2023-10-16 08:49:20,152 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+WARNING 2023-10-16 08:49:36,459 log Not Found: /favicon.ico
+DEBUG 2023-10-16 08:49:55,023 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 08:49:55,445 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 08:49:55,445 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 08:49:56,265 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+WARNING 2023-10-16 09:01:11,159 log Not Found: /favicon.ico
+WARNING 2023-10-16 09:01:14,072 log Not Found: /favicon.ico
+INFO 2023-10-16 09:04:07,526 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 09:04:07,969 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 09:04:07,985 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 09:04:07,985 __init__ interactive is False
+DEBUG 2023-10-16 09:04:07,985 __init__ platform is win32
+DEBUG 2023-10-16 09:04:08,064 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 09:04:08,064 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+WARNING 2023-10-16 09:04:43,998 log Not Found: /favicon.ico
+INFO 2023-10-16 11:48:40,776 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 11:48:41,360 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 11:48:41,365 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 11:48:41,366 __init__ interactive is False
+DEBUG 2023-10-16 11:48:41,366 __init__ platform is win32
+DEBUG 2023-10-16 11:48:41,462 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 11:48:41,464 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-16 11:51:38,390 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 11:51:38,690 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 11:51:38,690 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 11:51:38,690 __init__ interactive is False
+DEBUG 2023-10-16 11:51:38,690 __init__ platform is win32
+DEBUG 2023-10-16 11:51:38,751 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 11:51:38,757 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-16 11:57:35,250 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 11:57:35,547 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 11:57:35,550 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 11:57:35,550 __init__ interactive is False
+DEBUG 2023-10-16 11:57:35,550 __init__ platform is win32
+DEBUG 2023-10-16 11:57:35,597 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 11:57:35,613 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+WARNING 2023-10-16 12:07:11,888 log Not Found: /favicon.ico
+DEBUG 2023-10-16 12:07:56,299 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 12:07:56,570 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 12:07:56,570 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 12:07:57,387 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+INFO 2023-10-16 13:10:02,858 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 13:10:03,207 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 13:10:03,239 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:10:03,239 __init__ interactive is False
+DEBUG 2023-10-16 13:10:03,239 __init__ platform is win32
+DEBUG 2023-10-16 13:10:03,301 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:10:03,301 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+WARNING 2023-10-16 13:10:10,772 log Not Found: /favicon.ico
+WARNING 2023-10-16 13:16:40,182 log Not Found: /favicon.ico
+WARNING 2023-10-16 13:17:03,096 log Not Found: /favicon.ico
+WARNING 2023-10-16 13:17:16,094 log Not Found: /favicon.ico
+DEBUG 2023-10-16 13:18:10,729 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 13:18:10,983 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 13:18:10,983 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 13:18:11,699 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+WARNING 2023-10-16 13:18:29,296 log Not Found: /favicon.ico
+WARNING 2023-10-16 13:18:45,817 log Not Found: /favicon.ico
+INFO 2023-10-16 13:24:01,831 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 13:24:02,112 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 13:24:02,112 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:24:02,128 __init__ interactive is False
+DEBUG 2023-10-16 13:24:02,128 __init__ platform is win32
+DEBUG 2023-10-16 13:24:02,175 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:24:02,175 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-16 13:25:26,699 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 13:25:27,000 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 13:25:27,000 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:25:27,000 __init__ interactive is False
+DEBUG 2023-10-16 13:25:27,000 __init__ platform is win32
+DEBUG 2023-10-16 13:25:27,046 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:25:27,046 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-10-16 13:26:32,859 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 13:26:33,141 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 13:26:33,141 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:26:33,156 __init__ interactive is False
+DEBUG 2023-10-16 13:26:33,156 __init__ platform is win32
+DEBUG 2023-10-16 13:26:33,206 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:26:33,206 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+WARNING 2023-10-16 13:27:16,557 log Not Found: /favicon.ico
+INFO 2023-10-16 13:30:46,078 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 13:30:46,820 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 13:30:46,837 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:30:46,838 __init__ interactive is False
+DEBUG 2023-10-16 13:30:46,838 __init__ platform is win32
+DEBUG 2023-10-16 13:30:46,885 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:30:46,885 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+WARNING 2023-10-16 13:30:54,935 log Not Found: /favicon.ico
+WARNING 2023-10-16 13:31:15,343 log Not Found: /favicon.ico
+INFO 2023-10-16 13:31:21,274 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 13:31:21,540 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 13:31:21,540 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:31:21,540 __init__ interactive is False
+DEBUG 2023-10-16 13:31:21,540 __init__ platform is win32
+DEBUG 2023-10-16 13:31:21,587 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:31:21,603 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+WARNING 2023-10-16 13:31:31,048 log Not Found: /favicon.ico
+INFO 2023-10-16 13:33:34,521 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 13:33:34,787 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 13:33:34,787 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:33:34,787 __init__ interactive is False
+DEBUG 2023-10-16 13:33:34,787 __init__ platform is win32
+DEBUG 2023-10-16 13:33:34,845 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 13:33:34,846 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+WARNING 2023-10-16 13:34:30,283 log Not Found: /favicon.ico
+WARNING 2023-10-16 13:34:34,814 log Not Found: /favicon.ico
+WARNING 2023-10-16 13:37:09,616 log Not Found: /favicon.ico
+WARNING 2023-10-16 13:41:20,954 log Not Found: /favicon.ico
+WARNING 2023-10-16 13:45:51,048 log Not Found: /favicon.ico
+WARNING 2023-10-16 13:46:48,883 log Not Found: /favicon.ico
+WARNING 2023-10-16 13:50:48,242 log Not Found: /favicon.ico
+WARNING 2023-10-16 14:05:23,533 log Not Found: /favicon.ico
+WARNING 2023-10-16 14:05:36,225 log Not Found: /favicon.ico
+WARNING 2023-10-16 14:07:52,058 log Not Found: /favicon.ico
+DEBUG 2023-10-16 14:09:18,220 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:09:18,370 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:09:18,386 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:09:18,940 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:09:32,930 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:09:33,070 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:09:33,070 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:09:33,349 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:10:02,836 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:10:02,989 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:10:02,990 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:10:03,419 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:18:50,865 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:18:51,231 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:18:51,233 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:18:52,064 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:27:42,166 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:27:42,593 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:27:42,596 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:27:42,864 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:30:56,286 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:30:57,911 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:30:57,914 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:30:59,154 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:31:09,559 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:31:10,854 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:31:10,854 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:31:11,872 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:31:51,891 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:31:52,005 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:31:52,005 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:31:52,696 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:31:55,738 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:31:55,886 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:31:55,886 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:31:56,564 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:32:21,866 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:32:22,007 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:32:22,007 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:32:22,639 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:32:25,557 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:32:25,684 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:32:25,685 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:32:26,008 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:33:27,041 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:33:27,472 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:33:27,472 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:33:28,131 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+WARNING 2023-10-16 14:34:54,960 log Not Found: /favicon.ico
+DEBUG 2023-10-16 14:35:10,067 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:35:10,210 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:35:10,210 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:35:10,683 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+WARNING 2023-10-16 14:36:35,011 log Not Found: /favicon.ico
+DEBUG 2023-10-16 14:37:56,532 Image Importing BlpImagePlugin
+DEBUG 2023-10-16 14:37:56,532 Image Importing BmpImagePlugin
+DEBUG 2023-10-16 14:37:56,532 Image Importing BufrStubImagePlugin
+DEBUG 2023-10-16 14:37:56,532 Image Importing CurImagePlugin
+DEBUG 2023-10-16 14:37:56,532 Image Importing DcxImagePlugin
+DEBUG 2023-10-16 14:37:56,549 Image Importing DdsImagePlugin
+DEBUG 2023-10-16 14:37:56,551 Image Importing EpsImagePlugin
+DEBUG 2023-10-16 14:37:56,563 Image Importing FitsImagePlugin
+DEBUG 2023-10-16 14:37:56,566 Image Importing FitsStubImagePlugin
+DEBUG 2023-10-16 14:37:56,566 Image Importing FliImagePlugin
+DEBUG 2023-10-16 14:37:56,568 Image Importing FpxImagePlugin
+DEBUG 2023-10-16 14:37:56,570 Image Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG 2023-10-16 14:37:56,570 Image Importing FtexImagePlugin
+DEBUG 2023-10-16 14:37:56,571 Image Importing GbrImagePlugin
+DEBUG 2023-10-16 14:37:56,572 Image Importing GifImagePlugin
+DEBUG 2023-10-16 14:37:56,572 Image Importing GribStubImagePlugin
+DEBUG 2023-10-16 14:37:56,573 Image Importing Hdf5StubImagePlugin
+DEBUG 2023-10-16 14:37:56,574 Image Importing IcnsImagePlugin
+DEBUG 2023-10-16 14:37:56,579 Image Importing IcoImagePlugin
+DEBUG 2023-10-16 14:37:56,580 Image Importing ImImagePlugin
+DEBUG 2023-10-16 14:37:56,580 Image Importing ImtImagePlugin
+DEBUG 2023-10-16 14:37:56,580 Image Importing IptcImagePlugin
+DEBUG 2023-10-16 14:37:56,580 Image Importing JpegImagePlugin
+DEBUG 2023-10-16 14:37:56,580 Image Importing Jpeg2KImagePlugin
+DEBUG 2023-10-16 14:37:56,580 Image Importing McIdasImagePlugin
+DEBUG 2023-10-16 14:37:56,580 Image Importing MicImagePlugin
+DEBUG 2023-10-16 14:37:56,580 Image Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG 2023-10-16 14:37:56,580 Image Importing MpegImagePlugin
+DEBUG 2023-10-16 14:37:56,580 Image Importing MpoImagePlugin
+DEBUG 2023-10-16 14:37:56,598 Image Importing MspImagePlugin
+DEBUG 2023-10-16 14:37:56,598 Image Importing PalmImagePlugin
+DEBUG 2023-10-16 14:37:56,598 Image Importing PcdImagePlugin
+DEBUG 2023-10-16 14:37:56,598 Image Importing PcxImagePlugin
+DEBUG 2023-10-16 14:37:56,598 Image Importing PdfImagePlugin
+DEBUG 2023-10-16 14:37:56,598 Image Importing PixarImagePlugin
+DEBUG 2023-10-16 14:37:56,615 Image Importing PngImagePlugin
+DEBUG 2023-10-16 14:37:56,615 Image Importing PpmImagePlugin
+DEBUG 2023-10-16 14:37:56,615 Image Importing PsdImagePlugin
+DEBUG 2023-10-16 14:37:56,617 Image Importing QoiImagePlugin
+DEBUG 2023-10-16 14:37:56,618 Image Importing SgiImagePlugin
+DEBUG 2023-10-16 14:37:56,620 Image Importing SpiderImagePlugin
+DEBUG 2023-10-16 14:37:56,622 Image Importing SunImagePlugin
+DEBUG 2023-10-16 14:37:56,623 Image Importing TgaImagePlugin
+DEBUG 2023-10-16 14:37:56,628 Image Importing TiffImagePlugin
+DEBUG 2023-10-16 14:37:56,628 Image Importing WebPImagePlugin
+DEBUG 2023-10-16 14:37:56,647 Image Importing WmfImagePlugin
+DEBUG 2023-10-16 14:37:56,647 Image Importing XbmImagePlugin
+DEBUG 2023-10-16 14:37:56,647 Image Importing XpmImagePlugin
+DEBUG 2023-10-16 14:37:56,647 Image Importing XVThumbImagePlugin
+DEBUG 2023-10-16 14:39:37,410 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-10-16 14:39:37,636 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-10-16 14:39:37,636 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-10-16 14:39:37,936 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+INFO 2023-10-16 14:44:23,274 autoreload Watching for file changes with StatReloader
+DEBUG 2023-10-16 14:44:23,575 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-10-16 14:44:23,575 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 14:44:23,575 __init__ interactive is False
+DEBUG 2023-10-16 14:44:23,575 __init__ platform is win32
+DEBUG 2023-10-16 14:44:23,622 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-10-16 14:44:23,622 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
