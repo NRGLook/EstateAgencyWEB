@@ -12,7 +12,10 @@
 <body>
 <header>
     <div class="header">
-        <div class="logo" onclick="window.location.href='{%url 'main:home' %}';">ESTATE AGENCY</div>
+        <div class="logo" onclick="window.location.href='{% url 'main:home' %}';">
+            <img src="/static/logo/logo.png" alt="Logo company" width="40" height="40" class="logo-image">
+            ESTATE AGENCY
+        </div>
         <div class="nav">
             <div class="nav-item"
                  onclick="window.location.href='{%url 'EstateAgency:agency_list' 0 %}';">ESTATE OBJECTS</div>

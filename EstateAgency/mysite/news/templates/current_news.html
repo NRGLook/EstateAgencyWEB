@@ -1,7 +1,13 @@
 {% extends 'EstateAgency/base_agency.html' %}
 
+{% block head %}
+<link rel="stylesheet" type="text/css" href="/static/css/news.css">
+<meta name="description" content="Latest news and articles">
+<meta name="keywords" content="news, articles, information">
+{% endblock %}
+
 {% block content %}
-<div class="news-detail">
+<div class="article-content">
     <h1>{{ news.title }}</h1>
     <img src="{{ news.image.url }}" alt="{{ news.title }}" class="news-image">
     <p>{{ news.content }}</p>

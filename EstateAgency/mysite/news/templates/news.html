@@ -7,9 +7,9 @@
 {% endblock %}
 
 {% block content %}
-<div class="news-container">
+<div class="news-list">
     {% for news in news_list %}
-    <div class="news-article" itemscope itemtype="http://schema.org/Product">
+    <div class="news-item" itemscope itemtype="http://schema.org/Product">
         <h3 itemprop="headline" class="news-title">{{ news.title }}</h3>
         <img itemprop="image" src="{{ news.image.url }}" alt="{{ news.title }}" class="news-image">
         <p itemprop="description" class="news-summary">{{ news.content|slice:"100" }}{% if news.content|length > 100 %}...{% endif %}</p>

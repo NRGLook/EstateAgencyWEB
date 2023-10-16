@@ -1,6 +1,6 @@
 /* Стили для шапки */
 .header {
-    background-color: #40035c; /* Цвет фона */
+    background: radial-gradient(ellipse at center, #673ab7 0%, rgba(2,0,36,1) 25%, rgba(79,1,91,1) 100%); /* Deep Purple */
     color: #fff; /* Цвет теcdкста */
     padding: 10px 0; /* Внутренние отступы сверху и снизу */
     display: flex; /* Устанавливаем flex-контейнер */
@@ -9,9 +9,37 @@
 }
 
 .logo {
-    font-size: 24px; /* Размер шрифта логотипа */
-    cursor: pointer; /* Изменение курсора при наведении */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    cursor: grabbing;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
 }
+
+.logo-image {
+    margin-right: 10px; /* Расстояние между логотипом и текстом */
+}
+
+.logo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0);
+    transition: background 0.3s;
+    z-index: -1;
+}
+
+.logo:hover::before {
+    background: rgba(255, 255, 255, 0.3);
+    z-index: -1;
+}
+
 
 .nav {
     display: flex; /* Устанавливаем flex-контейнер для навигации */
@@ -19,7 +47,16 @@
 }
 
 .nav-item {
-    cursor: grab pointer; /* Изменение курсора при наведении на элементы навигации */
+    display: inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: box-shadow 0.3s; /* Добавляем плавное изменение тени */
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0); /* Начальная тень (прозрачная) */
+}
+
+.nav-item:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1); /* Тень при наведении (белая тень) */
 }
 
 /* Стили для контейнера с контентом и футером */
@@ -27,16 +64,6 @@
     min-height: 100vh; /* Минимальная высота равная высоте видимой области */
     display: flex;
     flex-direction: column;
-}
-
-/* Стили для шапки */
-.header {
-    background-color: #40035c;
-    color: #fff;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 /* Стили для основного контента */
@@ -47,7 +74,7 @@
 
 /* Стили для футера */
 .footer {
-    background-color: #40035c;
+    background: radial-gradient(ellipse at center, #673ab7 0%, rgba(2,0,36,1) 25%, rgba(79,1,91,1) 100%); /* Deep Purple */
     color: #fff;
     padding: 10px 0;
     display: flex;
@@ -58,3 +85,30 @@
     cursor: pointer;
 }
 
+/* Общий стиль для кнопки */
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none; /* Убираем границу */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1); /* Устанавливаем низкую прозрачность фона */
+    color: #fff; /* Задаем белый цвет текста */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+/* Стиль при наведении */
+.button1:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Изменяем прозрачность фона при наведении */
+    color: #eee; /* Изменяем цвет текста при наведении */
+    transform: scale(1.05);
+}
+
+/* Стиль при активации (клике) */
+.button1:active {
+    background-color: rgba(255, 255, 255, 0.3); /* Изменяем прозрачность фона при активации (клике) */
+    transform: scale(0.95);
+}

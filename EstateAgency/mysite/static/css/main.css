@@ -8,12 +8,12 @@
 
 .partner {
     width: 150px;
-    background-color: #007bff;
+    background: radial-gradient(ellipse at center, #673ab7 0%, rgba(2,0,36,1) 25%, rgba(79,1,91,1) 100%); /* Deep Purple */
     color: #fff;
     text-align: center;
     padding: 20px;
-    border-radius: 50%; /* Круглая форма */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Стили для наименования компании */
@@ -41,22 +41,60 @@
     max-height: 80px;
 }
 
-@keyframes moveObject {
+/* Объявление переменных для анимации */
+:root {
+    --animation-duration: 4s; /* Длительность анимации */
+    --animation-distance: 100px; /* Расстояние перемещения */
+}
+
+/* Анимация для движения объекта */
+@keyframes moveObject1 {
     0% {
         transform: translateX(0);
     }
     50% {
-        transform: translateX(100px);
+        transform: translateX(var(--animation-distance));
     }
     100% {
         transform: translateX(0);
     }
 }
 
-.banner-object {
-    animation: moveObject 4s linear infinite;
-    -webkit-animation: moveObject 4s linear infinite; /* Добавьте префикс для WebKit (Safari и Chrome) */
-    -moz-animation: moveObject 4s linear infinite; /* Добавьте префикс для Mozilla Firefox */
+@keyframes moveObject2 {
+    0% {
+        transform: translateX(calc(100% - var(--animation-distance))); /* Начнем с крайней правой части экрана */
+    }
+    50% {
+        transform: translateX(0); /* Закончим в центре экрана */
+    }
+    100% {
+        transform: translateX(calc(100% - var(--animation-distance))); /* Возвращаемся на крайнюю правую часть экрана */
+    }
+}
+
+/* Стили для рекламного баннера */
+.banner-object1 {
+    animation: moveObject1 4s linear infinite;
+    -webkit-animation: moveObject1 4s linear infinite;
+    -moz-animation: moveObject1 4s linear infinite;
+    position: absolute; /* Сделаем позицию абсолютной */
+    top: 12%;
+    opacity: 0.8; /* Уменьшим немного прозрачность */
+}
+
+.banner-object2 {
+    animation: moveObject2 4s linear infinite;
+    -webkit-animation: moveObject2 4s linear infinite;
+    -moz-animation: moveObject2 4s linear infinite;
+    position: absolute; /* Сделаем позицию абсолютной */
+    top: 12%;
+    opacity: 0.8; /* Уменьшим немного прозрачность */
+}
+
+/* Стили для основного контента */
+.main-content {
+    margin-left: 125px; /* Оставим место для баннера справа */
+    padding: 10px; /* Добавим отступы для контента */
 }
 
 /* Стили для отображения инфо о последней статье */

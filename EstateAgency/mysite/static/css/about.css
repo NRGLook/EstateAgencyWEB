@@ -1,77 +1,267 @@
-/* Стили для логотипа компании с использованием трансформации */
-/* Добавляем анимацию к логотипу */
+/* Стили для страницы "О компании" */
+.main-container {
+    background-image: url('/static/background/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 1; /* Полностью непрозрачный фон */
+    color: #fff; /* Белый цвет текста */
+    font-family: 'Arial', sans-serif; /* Основной шрифт из службы шрифтов */
+    line-height: 1.5; /* Межстрочный интервал */
+    padding: 20px; /* Отступы вокруг текста */
+}
+
+@media screen and (max-width: 768px) {
+    /* Стили для мобильных устройств */
+    .main-container {
+        background-image: url('/static/background/mobile_background.jpg');
+    }
+}
+
+/* Оформление логотипа */
 .company-logo {
-    animation: pulse 2s infinite;
+    max-width: 150px; /* Увеличьте максимальную ширину для увеличения размера логотипа */
+    width: 100%; /* Занимать всю доступную ширину */
+    display: block;
+    margin: 10px auto;
+    border: 5px solid #fff; /* Добавление белой рамки */
+    border-radius: 50%; /* Создание круглой рамки */
+    transform-style: preserve-3d; /* Включение 3D-пространства */
+    transform: rotateX(170deg) rotateY(145deg) rotateZ(145deg); /* Вращение вокруг всех трех осей */
 }
 
-/* Добавляем бензиновый градиентный фон */
-body {
-    background: linear-gradient(to right, #1a88cc, #cc2520);
-    color: #fff; /* Цвет текста, чтобы он был виден на градиентном фоне */
+.company-name {
+    text-align: center;
+    text-transform: uppercase; /* Заголовок в капительных буквах */
 }
 
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(1);
-    }
+/* Стили для первой буквы в .company-name */
+.company-name::first-letter {
+    font-size: 150%; /* Увеличьте размер первой буквы */
+    color: blue; /* Цвет первой буквы */
+    font-weight: bold; /* Жирный стиль первой буквы */
 }
 
-/* Анимация для логотипа */
-.animation-logo {
-    transition: transform 0.3s ease; /* Добавляем анимацию */
+/* Стили для цитаты */
+.quote {
+    margin: 20px 0;
+    text-align: center;
+    font-style: italic;
 }
 
-.animation-logo:hover {
-    transform: scale(1.1); /* Масштабирование логотипа при наведении курсора */
+/* Оформление кавычек в зависимости от указанного класса языка цитаты */
+.quote.english::before {
+    content: '“'; /* Левая кавычка для цитат на английском */
+}
+
+.quote.english::after {
+    content: '”'; /* Правая кавычка для цитат на английском */
+}
+
+.quote.russian::before {
+    content: '«'; /* Левая кавычка для цитат на русском */
+}
+
+.quote.russian::after {
+    content: '»'; /* Правая кавычка для цитат на русском */
+}
+
+/* Стили для ссылки на сертификат */
+.certificate-link {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin: 20px auto;
+    max-width: 150px;
+    font-weight: bold;
+    border-width: 2px; /* Ширина границы */
+    border-style: solid;
+    border-image-source: url('static/background/mobile_background.jpg'); /* Путь к изображению границы */
+
+    /* Добавляем вендорные префиксы */
+    -webkit-border-image-source: url('static/background/mobile_background.jpg'); /* Для WebKit (Chrome, Safari) */
+    -moz-border-image-source: url('static/background/mobile_background.jpg'); /* Для Mozilla Firefox */
+    -o-border-image-source: url('static/background/mobile_background.jpg'); /* Для Opera */
+    -ms-border-image-source: url('static/background/mobile_background.jpg'); /* Для Internet Explorer и Microsoft Edge */
+
+    border-image-slice: 1; /* Использовать всё изображение для границы */
+
+    /* Добавляем вендорные префиксы */
+    -webkit-border-image-slice: 1;
+    -moz-border-image-slice: 1;
+    -o-border-image-slice: 1;
+    -ms-border-image-slice: 1;
+}
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url('https://fonts.google.com/specimen/IBM+Plex+Serif') format('woff2'); /* Замените ссылку на фактическую */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.company-description {
+    background: radial-gradient(ellipse at center, #673ab7 0%, rgba(2,0,36,1) 25%, rgba(79,1,91,1) 100%); /* Deep Purple */
+    color: white; /* Цвет текста */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    text-indent: 1em; /* Красная строка */
+    font-weight: bold; /* Жирный шрифт */
+    font-family: 'IBM Plex Serif', sans-serif; /* Применение стороннего шрифта */
 }
 
 
-/* Стили для сертификата */
-.certificate {
-  border-image: url('border.png') 30 round; /* Граница с изображением */
-  background-image: url('certificate-background.jpg'); /* Фоновое изображение */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-clip: padding-box;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Тень */
-  z-index: 1; /* z-index для управления слоями */
-  font-family: 'Arial', sans-serif;
-  text-align: center; /* Выравнивание текста по центру */
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
+.company-description:hover {
+    background-color: #4a90e2; /* Цвет фона при наведении курсора */
+    color: red; /* Цвет текста при наведении курсора */
 }
 
-/* Стили для истории по годам */
+.company-description:focus {
+    outline: none; /* Убираем обводку при фокусе */
+}
+
+em[itemprop="numberOfImmovables"] {
+    background: radial-gradient(ellipse at center, #673ab7 0%, rgba(2,0,36,1) 25%, rgba(79,1,91,1) 100%); /* Deep Purple */
+    color: #fff; /* Цвет текста */
+    padding: 5px 10px; /* Поля вокруг текста */
+    border-radius: 5px; /* Закругленные углы */
+    font-weight: bold; /* Жирный шрифт */
+    display: block;
+    text-align: center;
+}
+
+/* Стили для видео в виде фона */
+.background-video {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Стили для аудио в виде фона */
+.background-audio {
+    position: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Стили для ссылки на эту страницу */
+.page-link {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: radial-gradient(ellipse at center, #673ab7 0%, rgba(2,0,36,1) 25%, rgba(79,1,91,1) 100%); /* Deep Purple */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Стили для истории компании */
 .history {
-  list-style-type: none;
-  padding: 0;
+    font-family: 'Arial', sans-serif;
+    list-style-type: disc;
+    padding-left: 20px; /* Отступы слева */
+    text-transform: uppercase; /* Заголовки в капительных буквах */
+    font-variant: small-caps; /* Отображение текста капителью */
 }
 
-.history-item {
-  margin-bottom: 10px;
-}
-
-/* Стили для реквизитов */
+/* Выделение реквизитов шрифтом */
 .requisites {
-  font-family: 'Verdana', sans-serif; /* Выделение шрифтом */
-  font-size: 16px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 /* Стили для видео и аудио элементов */
-video,
-audio {
-  width: 100%;
-  max-width: 600px;
-  margin: 20px 0;
-  border: 1px solid #ccc; /* Пример стиля для видео/аудио */
+video, audio {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; /* Центрирование элемента по горизонтали */
 }
+
+/* Дополнительные стили для центрирования видео и аудио по вертикали */
+video.centered, audio.centered {
+    max-height: 100vh; /* Максимальная высота равна высоте окна браузера */
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    align-items: center; /* Вертикальное выравнивание по центру */
+}
+
+/* Стили для списка с маркерами Юникода */
+.ol-marker-list {
+    list-style-type: none; /* Скрыть маркеры по умолчанию */
+}
+
+.ol-marker-list li::before {
+    content: '\2022'; /* Символ Юникода для маркера в виде точки • */
+    color: #FF5733; /* Цвет маркера */
+    font-size: 20px; /* Размер маркера */
+    margin-right: 10px; /* Отступ между маркером и текстом */
+}
+
+/* Изменение стиля при выделении текста */
+.ol-marker-list li::selection {
+    background: #FF5733; /* Цвет фона при выделении */
+    color: #fff; /* Цвет текста при выделении */
+}
+
+/* Стили для ссылок и элементов в фокусе */
+article a {
+    color: #FF5733; /* Цвет не посещенных ссылок */
+    text-decoration: none; /* Убрать подчеркивание */
+    transition: color 0.3s; /* Плавное изменение цвета при изменении состояния */
+
+    /* Стили при наведении курсора */
+}
+
+article a:hover {
+    color: #0059b2; /* Цвет ссылок при наведении курсора */
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+/* Стили для посещенных ссылок */
+article a:visited {
+    color: #8B0000; /* Цвет посещенных ссылок */
+}
+
+/* Стили для нажатых ссылок */
+article a:active {
+    color: #000000; /* Цвет нажатых ссылок */
+}
+
+/* Стили для элементов в фокусе (по атрибуту tabindex) */
+article a:focus {
+    outline: 2px solid #FFF; /* Обводка элемента в фокусе */
+}
+
+/* Стили для элементов в фокусе (по атрибуту tabindex) с определенным значением атрибута */
+article a[data-my-attribute="my-value"]:focus {
+    font-awesome: 120px;
+}
+
+/* Стили для элементов начинающихся с подстроки атрибута href */
+article a[href^="https://"]:before {
+    content: '\2197'; /* Символ стрелки в верхнем правом углу */
+    margin-right: 5px;
+}
+
+/* Стили для элементов заканчивающихся подстрокой в атрибуте href */
+article a[href$=".pdf"]:after {
+    content: '[PDF]'; /* Добавление текста для ссылок на PDF-файлы */
+    margin-left: 5px;
+}
+
+/* Стили для элементов с определенным значением атрибута href */
+article a[href="https://www.instagram.com/tikhanionok/"] {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
