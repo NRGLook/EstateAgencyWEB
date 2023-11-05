@@ -1,17 +1,17 @@
 {% extends 'EstateAgency/base_agency.html' %}
 
 {% block content %}
-<label class="immovables-text" style="text-align: center;">Total earnings: {{total_earnings}}</label><br>
-<label class="immovables-text" style="text-align: center;">Average bill: {{average_bill}}</label><br><br>
-<label class="immovables-text" style="text-align: center;">The most popular object: {{most_popular_immovables}}</label><br>
-<label class="immovables-text" style="text-align: center;">It has a total of {{total_bookings}} bookings</label><br>
+<label style="text-align: center;">Total earnings: {{total_earnings}}</label><br>
+<label style="text-align: center;">Average bill: {{average_bill}}</label><br><br>
+<label style="text-align: center;">The most popular object: {{most_popular_immovables}}</label><br>
+<label style="text-align: center;">It has a total of {{total_bookings}} bookings</label><br>
 
 <img src="data:image/png;base64,{{ plot_data }}">
 
-<ul class="immovables-list">
+<ul>
     {% for booking in bookings %}
-    <li class="immovables-item">
-        <div class="immovables-text">
+    <li>
+        <div>
             <label>Name: {{ booking.client }}</label><br>
             <label>Phone: {{ booking.client.phone_number }}</label><br>
             <label>Has child: {{ booking.has_child }}</label><br>

@@ -1,9 +1,9 @@
 {% extends 'EstateAgency/base_agency.html' %}
 
 {% block head %}
-<link rel="stylesheet" type="text/css" href="/static/css/news.css">
 <meta name="description" content="Latest news and articles">
 <meta name="keywords" content="news, articles, information">
+<link rel="stylesheet" type="text/css" href="/static/css/news.css">
 {% endblock %}
 
 {% block content %}
@@ -16,5 +16,19 @@
         <a itemprop="url" href="{% url 'news:current_news' news.id %}" class="read-more-button">Read more</a>
     </div>
     {% endfor %}
+</div>
+
+<h2>
+    Настройка ротации баннеров
+</h2>
+<form id="rotation-form">
+    <label for="interval">Интервал (секунды):</label>
+    <input type="number" id="interval" name="interval" value="1">
+    <button type="button" id="start-rotation">Запустить ротацию</button>
+    <button type="button" id="stop-rotation">Остановить ротацию</button>
+</form>
+
+<script src="/static/js/2_news.js"></script>
+
 </div>
 {% endblock %}

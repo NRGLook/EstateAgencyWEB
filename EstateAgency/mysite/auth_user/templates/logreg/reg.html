@@ -1,10 +1,17 @@
 {% extends 'EstateAgency/base_agency.html' %}
 
+{% block head %}
+<link rel="stylesheet" type="text/css" href="/static/css/reg.css">
+{% endblock %}
+
 {% block content %}
 <form method="post" class="horizontal-center">
     {% csrf_token %}
     {% for f in form %}
-    <p><label class="form-label" for="{{ f.id_for_label }}">{{f.label}}: </label>{{ f }}</p>
+    <div class="form-group">
+        <label class="form-label" for="{{ f.id_for_label }}">{{f.label}}:</label>
+        {{ f }}
+    </div>
     <div class="form-error">{{ f.errors }}</div>
     {% endfor %}
 

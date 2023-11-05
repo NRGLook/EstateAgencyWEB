@@ -1,3 +1,53 @@
+/*------------js_settings-----------*/
+
+/* Стили для заголовка */
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Стили для формы */
+#rotation-form {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Стили для метки и ввода интервала */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+/* Стили для кнопок "Запустить ротацию" и "Остановить ротацию" */
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: radial-gradient(ellipse at center, #673ab7 0%, rgba(2,0,36,1) 25%, rgba(79,1,91,1) 100%); /* Deep Purple */
+}
+
+/*-------------news_settings----------------*/
+
 /* Стили для списка новостей */
 .news-list {
   list-style-type: none;
@@ -90,3 +140,4 @@
 .article-content a:hover {
   color: #555;
 }
+
