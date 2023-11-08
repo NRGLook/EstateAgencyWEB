@@ -7827,3 +7827,117 @@ DEBUG 2023-11-05 14:59:52,989 connectionpool Starting new HTTP connection (1): a
 DEBUG 2023-11-05 14:59:53,161 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
 DEBUG 2023-11-05 14:59:53,161 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
 DEBUG 2023-11-05 14:59:53,708 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+INFO 2023-11-08 16:07:45,560 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 16:07:46,500 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 16:07:46,515 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:07:46,515 __init__ interactive is False
+DEBUG 2023-11-08 16:07:46,515 __init__ platform is win32
+DEBUG 2023-11-08 16:07:46,578 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:07:46,594 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-11-08 16:08:02,631 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-08 16:08:03,405 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-08 16:08:03,405 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-08 16:08:06,930 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-08 16:08:44,891 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-08 16:08:45,033 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-08 16:08:45,033 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-08 16:08:48,314 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+WARNING 2023-11-08 16:09:20,117 log Not Found: /favicon.ico
+INFO 2023-11-08 16:18:32,072 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 16:18:32,390 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 16:18:32,390 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:18:32,390 __init__ interactive is False
+DEBUG 2023-11-08 16:18:32,390 __init__ platform is win32
+DEBUG 2023-11-08 16:18:32,453 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:18:32,453 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 16:25:16,430 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 16:25:16,717 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 16:25:16,717 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:25:16,717 __init__ interactive is False
+DEBUG 2023-11-08 16:25:16,717 __init__ platform is win32
+DEBUG 2023-11-08 16:25:16,779 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:25:16,779 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 16:30:15,720 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 16:30:16,044 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 16:30:16,048 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:30:16,050 __init__ interactive is False
+DEBUG 2023-11-08 16:30:16,050 __init__ platform is win32
+DEBUG 2023-11-08 16:30:16,101 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:30:16,103 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 16:31:17,978 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 16:31:18,279 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 16:31:18,279 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:31:18,279 __init__ interactive is False
+DEBUG 2023-11-08 16:31:18,279 __init__ platform is win32
+DEBUG 2023-11-08 16:31:18,342 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:31:18,342 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 16:34:13,696 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 16:34:13,993 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 16:34:13,993 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:34:14,009 __init__ interactive is False
+DEBUG 2023-11-08 16:34:14,009 __init__ platform is win32
+DEBUG 2023-11-08 16:34:14,056 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:34:14,056 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 16:38:50,174 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 16:38:50,456 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 16:38:50,471 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:38:50,471 __init__ interactive is False
+DEBUG 2023-11-08 16:38:50,471 __init__ platform is win32
+DEBUG 2023-11-08 16:38:50,518 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:38:50,518 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 16:42:20,821 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 16:42:21,125 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 16:42:21,125 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:42:21,125 __init__ interactive is False
+DEBUG 2023-11-08 16:42:21,125 __init__ platform is win32
+DEBUG 2023-11-08 16:42:21,188 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:42:21,188 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 16:43:31,680 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 16:43:31,967 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 16:43:31,967 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:43:31,967 __init__ interactive is False
+DEBUG 2023-11-08 16:43:31,967 __init__ platform is win32
+DEBUG 2023-11-08 16:43:32,016 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:43:32,016 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 16:50:42,848 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 16:50:43,162 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 16:50:43,164 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:50:43,164 __init__ interactive is False
+DEBUG 2023-11-08 16:50:43,164 __init__ platform is win32
+DEBUG 2023-11-08 16:50:43,211 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:50:43,211 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 16:51:30,467 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 16:51:30,762 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 16:51:30,762 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:51:30,762 __init__ interactive is False
+DEBUG 2023-11-08 16:51:30,762 __init__ platform is win32
+DEBUG 2023-11-08 16:51:30,825 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:51:30,825 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 16:53:41,738 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 16:53:42,606 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 16:53:42,622 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:53:42,622 __init__ interactive is False
+DEBUG 2023-11-08 16:53:42,622 __init__ platform is win32
+DEBUG 2023-11-08 16:53:42,751 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 16:53:42,751 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 17:05:14,932 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 17:05:15,657 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 17:05:15,665 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 17:05:15,665 __init__ interactive is False
+DEBUG 2023-11-08 17:05:15,665 __init__ platform is win32
+DEBUG 2023-11-08 17:05:15,812 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 17:05:15,812 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 17:07:27,742 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 17:07:28,441 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 17:07:28,441 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 17:07:28,456 __init__ interactive is False
+DEBUG 2023-11-08 17:07:28,456 __init__ platform is win32
+DEBUG 2023-11-08 17:07:28,582 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 17:07:28,582 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-08 18:14:51,121 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-08 18:14:52,049 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-08 18:14:52,062 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 18:14:52,064 __init__ interactive is False
+DEBUG 2023-11-08 18:14:52,064 __init__ platform is win32
+DEBUG 2023-11-08 18:14:52,128 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-08 18:14:52,136 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json

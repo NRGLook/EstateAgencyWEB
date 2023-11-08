@@ -19,7 +19,23 @@
             </a>
         </aside>
 
-        <section itemscope itemtype="https://schema.org/Article" class="latest-article">
+        <section id="top">
+          <img src="https://aryan-tayal.github.io/Mountains-Parallax/bg.jpg" id="bg" />
+          <h2 id="text">Mountains</h2>
+          <img src="https://aryan-tayal.github.io/Mountains-Parallax/man.png" id="man" />
+          <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_1.png" id="clouds_1" />
+          <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_2.png" id="clouds_2" />
+          <img src="https://aryan-tayal.github.io/Mountains-Parallax/mountain_left.png" id="mountain_left" />
+          <img src="https://aryan-tayal.github.io/Mountains-Parallax/mountain_right.png" id="mountain_right" />
+        </section>
+        <section id="sec">
+          <h2>
+              Estate Agency
+          </h2>
+          <p>
+              Welcome to our Estate Agency, where your dream home becomes a reality. We're here to guide you through the exciting journey of buying or selling your property. Our dedicated team of experienced professionals is committed to providing you with personalized service, market expertise, and the utmost integrity. Whether you're searching for a new home, an investment property, or looking to list your property, we've got you covered. Let's turn your real estate dreams into a stunning reality. Discover the perfect place to call home with our Estate Agency.
+          </p>
+            <section itemscope itemtype="https://schema.org/Article" class="latest-article">
             <h2 itemprop="name">Latest article:</h2>
             <h3 itemprop="headline">{{ latest_article.title }}</h3>
             <p itemprop="description">{{ latest_article.content|slice:"200" }}
@@ -63,5 +79,9 @@
                 </div>
             </div>
         </article>
+        </section>
+
+
     </div>
+    <script src="/static/js/3_main_scroll-animations.js"></script>
 {% endblock %}
