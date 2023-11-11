@@ -8200,3 +8200,61 @@ DEBUG 2023-11-11 20:52:22,813 __init__ interactive is False
 DEBUG 2023-11-11 20:52:22,813 __init__ platform is win32
 DEBUG 2023-11-11 20:52:22,860 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
 DEBUG 2023-11-11 20:52:22,900 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-11-11 20:52:33,276 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:52:33,446 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:52:33,449 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:52:33,709 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:53:06,368 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:53:06,571 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:53:06,573 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:53:06,909 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:53:14,806 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:53:14,978 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:53:14,996 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:53:15,552 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:53:50,994 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:53:51,408 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:53:51,471 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:53:51,911 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:53:53,367 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:53:53,489 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:53:53,489 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:53:54,009 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:54:21,682 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:54:21,835 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:54:21,839 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:54:22,104 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:54:23,700 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:54:23,805 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:54:23,821 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:54:24,378 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:54:26,003 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:54:26,129 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:54:26,131 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:54:26,430 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:54:28,703 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:54:28,859 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:54:28,868 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:54:29,138 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:54:31,565 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:54:31,736 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:54:31,738 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:54:32,196 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:54:40,909 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:54:41,097 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:54:41,098 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:54:41,646 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+INFO 2023-11-11 20:58:34,031 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-11 20:58:34,298 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-11 20:58:34,298 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-11 20:58:34,298 __init__ interactive is False
+DEBUG 2023-11-11 20:58:34,298 __init__ platform is win32
+DEBUG 2023-11-11 20:58:34,345 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-11 20:58:34,345 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+INFO 2023-11-11 21:03:57,110 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-11 21:03:57,406 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-11 21:03:57,406 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-11 21:03:57,406 __init__ interactive is False
+DEBUG 2023-11-11 21:03:57,406 __init__ platform is win32
+DEBUG 2023-11-11 21:03:57,469 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-11 21:03:57,469 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
