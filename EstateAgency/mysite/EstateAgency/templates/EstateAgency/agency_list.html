@@ -3,7 +3,7 @@
 {% block head %}
 <meta name="description" content="Estate Agency">
 <meta name="keywords" content="agency, Minsk, estate agency, contacts">
-<link rel="stylesheet" type="text/css" href="/static/css/agency_list.css"> <!-- Подключаем ваши стили -->
+<link rel="stylesheet" type="text/css" href="/static/css/agency_list.css">
 {% endblock %}
 
 {% block content %}
@@ -67,7 +67,7 @@
 <ul class="immovables-list">
     {% for m in immovables %}
 
-    <li class="immovables-card" onclick="window.location.href='{% url 'EstateAgency:immovables_id' m.id %}'">
+    <li class="immovables-card" onmouseover="addHoverEffect(this)" onmouseout="removeHoverEffect(this)" onclick="window.location.href='{% url 'EstateAgency:immovables_id' m.id %}'">
         {% load static %}
         <img src="/{{ m.photo }}"
              alt="image" class="immovables-image">
@@ -95,5 +95,7 @@
         <label>Current Date: {{ timezone_context.current_date|date:"d/m/Y" }} </label>
     </div>
 </header>
+
+<script src="/static/js/4_agency_list.js"></script>
 
 {% endblock %}

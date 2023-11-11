@@ -7,6 +7,27 @@
 {% endblock %}
 
 {% block content %}
+
+<!-- Форма с флажком для активации настроек -->
+<form id="settingsForm">
+    <label>
+        <input type="checkbox" id="enableSettings"> Enable Settings
+    </label>
+
+    <!-- Элементы для изменения размера шрифта и цвета -->
+    <div id="fontColorSettings" style="display: none;">
+        <label for="fontSizeInput">Font Size:</label>
+        <input type="number" id="fontSizeInput" min="10" max="50">
+        <label for="textColorInput">Text Color:</label>
+        <input type="color" id="textColorInput">
+
+        <!-- Элемент для изменения цвета фона -->
+        <label for="bgColorInput">Background Color:</label>
+        <input type="color" id="bgColorInput">
+    </div>
+</form>
+
+
 <div class="news-list">
     {% for news in news_list %}
     <div class="news-item" itemscope itemtype="http://schema.org/Product">
@@ -28,7 +49,9 @@
     <button type="button" id="stop-rotation">Остановить ротацию</button>
 </form>
 
+<!-- Скрипты для изменения размера шрифта и цвета текста, цвета фона -->
 <script src="/static/js/2_news.js"></script>
+<script src="/static/js/5_news.js"></script>
 
 </div>
 {% endblock %}

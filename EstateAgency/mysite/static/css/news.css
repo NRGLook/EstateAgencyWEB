@@ -48,6 +48,8 @@ button:hover {
 
 /*-------------news_settings----------------*/
 
+/*-------------news_settings----------------*/
+
 /* Стили для списка новостей */
 .news-list {
   list-style-type: none;
@@ -57,14 +59,18 @@ button:hover {
   justify-content: space-between;
 }
 
+/* Стили для карточки новости */
 .news-item {
-  flex-basis: calc(33.33% - 20px);
+  flex-basis: calc(50% - 20px); /* По 2 карточки в строке с промежутком в 20 пикселей */
+  box-sizing: border-box;
   padding: 20px;
   border: 1px solid #ccc;
   background-color: #fff;
   margin-bottom: 20px;
-  transition: transform 0.3s; /* Добавим анимацию для раскрытия */
+  transition: transform 0.3s;
+  box-sizing: border-box;
 }
+
 
 /* Стили для заголовка статьи */
 .news-title {
