@@ -32,5 +32,19 @@
     {% else %}
     <label class="add-review-label" onclick="window.location.href='{% url 'auth_user:register' %}';">Add a review</label>
     {% endif %}
+
+    <form id="myForm">
+        <label for="input1">Enter first number:</label>
+        <input type="number" id="input1" name="input1" required>
+
+        <label for="input2">Enter second number:</label>
+        <input type="number" id="input2" name="input2" required>
+
+        <button type="button" onclick="calculateSum()">Calculate sum</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="/static/js/11_associate_array_employee.js"></script>
 </body>
 </html>

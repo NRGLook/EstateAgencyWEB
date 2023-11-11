@@ -99,3 +99,15 @@ function addColumn() {
         newCell.addEventListener('click', () => handleCellClick(newCell));
     }
 }
+    // Использование
+    const instance1 = new DerivedClass("Instance 1", "Additional Property 1");
+    displayResult("Prototype Inheritance", instance1);
+
+    const instance2 = new DerivedClassES6("Instance 2", "Additional Property 2");
+    displayResult("Class Inheritance", instance2);
+
+    function displayResult(title, instance) {
+        document.body.innerHTML += `<h2>${title}</h2>`;
+        document.body.innerHTML += `<p>Initial Name: ${instance.getName()}</p>`;
+        document.body.innerHTML += `<p>Initial Additional Property: ${instance.getAdditionalProperty()}</p>`;
+    }
