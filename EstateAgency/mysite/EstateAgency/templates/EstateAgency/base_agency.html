@@ -33,6 +33,13 @@
                  onclick="window.location.href='{%url 'about:home' %}';">ABOUT</div>
         </div>
 
+        <div id="countdown-container">
+            <h2>Countdown to Redirect:</h2>
+            <div id="countdown"></div>
+        </div>
+
+        <script src="/static/js/8_base_agency.js"></script>
+
         {% if user.is_authenticated %}
         <div class="user-info">
             <div class="nav-item">{{user.username}}</div>
@@ -63,6 +70,7 @@
              onclick="window.location.href='{%url 'vacancy:home' %}';">VACANCY</div>
     </div>
 </footer>
+
 
 </body>
 </html>
