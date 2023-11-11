@@ -8117,3 +8117,86 @@ DEBUG 2023-11-11 20:25:43,909 __init__ interactive is False
 DEBUG 2023-11-11 20:25:43,909 __init__ platform is win32
 DEBUG 2023-11-11 20:25:43,962 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
 DEBUG 2023-11-11 20:25:43,962 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+WARNING 2023-11-11 20:35:00,747 log Not Found: /favicon.ico
+DEBUG 2023-11-11 20:37:41,662 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:37:41,959 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:37:41,961 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:37:42,448 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+WARNING 2023-11-11 20:37:43,449 log Not Found: /EstateAgency/sort_by/0/undefined
+WARNING 2023-11-11 20:37:53,216 log Not Found: /EstateAgency/sort_by/0/undefined
+DEBUG 2023-11-11 20:37:56,936 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:37:57,072 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:37:57,072 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:37:57,589 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:37:58,258 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:37:58,425 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:37:58,428 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:37:58,952 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+INFO 2023-11-11 20:38:06,830 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-11 20:38:07,128 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-11 20:38:07,128 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-11 20:38:07,128 __init__ interactive is False
+DEBUG 2023-11-11 20:38:07,128 __init__ platform is win32
+DEBUG 2023-11-11 20:38:07,175 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-11 20:38:07,191 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json
+DEBUG 2023-11-11 20:38:09,487 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:38:09,666 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:38:09,667 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:38:10,150 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+WARNING 2023-11-11 20:38:10,878 log Not Found: /EstateAgency/sort_by/0/undefined
+DEBUG 2023-11-11 20:38:28,866 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:38:29,002 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:38:29,002 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:38:29,437 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+WARNING 2023-11-11 20:38:31,974 log Not Found: /EstateAgency/sort_by/0/undefined
+DEBUG 2023-11-11 20:39:28,921 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:39:29,095 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:39:29,095 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:39:29,398 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+WARNING 2023-11-11 20:39:30,494 log Not Found: /EstateAgency/sort_by/0/undefined
+DEBUG 2023-11-11 20:40:38,783 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:40:38,958 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:40:38,958 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:40:39,247 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:40:49,456 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:40:49,679 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:40:49,679 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:40:50,071 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+WARNING 2023-11-11 20:40:51,449 log Not Found: /EstateAgency/sort_by/0/undefined
+WARNING 2023-11-11 20:40:51,564 log Not Found: /favicon.ico
+WARNING 2023-11-11 20:40:53,175 log Not Found: /EstateAgency/sort_by/0/undefined
+WARNING 2023-11-11 20:46:29,650 log Not Found: /EstateAgency/sort_by/0/undefined
+DEBUG 2023-11-11 20:47:35,218 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:47:35,621 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:47:35,624 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:47:36,175 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:47:37,767 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:47:37,901 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:47:37,901 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:47:38,168 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:48:24,609 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:48:24,787 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:48:24,787 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:48:25,316 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:48:26,897 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:48:27,103 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:48:27,120 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:48:27,719 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:49:02,683 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:49:02,825 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:49:02,825 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:49:03,440 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:49:06,473 connectionpool Starting new HTTP connection (1): api.forismatic.com:80
+DEBUG 2023-11-11 20:49:06,593 connectionpool http://api.forismatic.com:80 "GET /api/1.0/?method=getQuote&format=json&lang=en HTTP/1.1" 200 None
+DEBUG 2023-11-11 20:49:06,596 connectionpool Starting new HTTPS connection (1): icanhazdadjoke.com:443
+DEBUG 2023-11-11 20:49:06,879 connectionpool https://icanhazdadjoke.com:443 "GET / HTTP/1.1" 200 None
+WARNING 2023-11-11 20:49:07,723 log Not Found: /EstateAgency/sort_by/2/undefined
+WARNING 2023-11-11 20:49:07,832 log Not Found: /favicon.ico
+WARNING 2023-11-11 20:49:10,319 log Not Found: /EstateAgency/sort_by/2/undefined
+INFO 2023-11-11 20:52:22,511 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-11 20:52:22,797 __init__ matplotlib data path: C:\Users\ilyat\AppData\Local\Programs\Python\Python311\Lib\site-packages\matplotlib\mpl-data
+DEBUG 2023-11-11 20:52:22,813 __init__ CONFIGDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-11 20:52:22,813 __init__ interactive is False
+DEBUG 2023-11-11 20:52:22,813 __init__ platform is win32
+DEBUG 2023-11-11 20:52:22,860 __init__ CACHEDIR=C:\Users\ilyat\.matplotlib
+DEBUG 2023-11-11 20:52:22,900 font_manager Using fontManager instance from C:\Users\ilyat\.matplotlib\fontlist-v330.json

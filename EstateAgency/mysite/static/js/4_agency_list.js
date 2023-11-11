@@ -1,26 +1,16 @@
-// agency_list.js
+// Ваши существующие функции и код
 
-// Функция добавляет эффект при наведении на карточку
-function addHoverEffect(card) {
-    card.classList.add('hovered');
-}
+// Добавляем обработчики событий для эффекта объема
+var immovablesCards = document.querySelectorAll('.immovables-card');
 
-// Функция убирает эффект при уходе с карточки
-function removeHoverEffect(card) {
-    card.classList.remove('hovered');
-}
-
-// Навешиваем обработчики событий на все карточки
-document.querySelectorAll('.immovables-card').forEach(function(card) {
-    card.addEventListener('mouseover', function() {
-        addHoverEffect(card);
+immovablesCards.forEach(function (card) {
+    card.addEventListener('mouseover', function () {
+        card.style.transform = 'scale(1.1)';
+        card.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
     });
 
-    card.addEventListener('mouseout', function() {
-        removeHoverEffect(card);
-    });
-
-    card.addEventListener('click', function() {
-        window.location.href = card.dataset.url; // Переходим по ссылке из data-атрибута
+    card.addEventListener('mouseout', function () {
+        card.style.transform = 'scale(1)';
+        card.style.boxShadow = 'none';
     });
 });
