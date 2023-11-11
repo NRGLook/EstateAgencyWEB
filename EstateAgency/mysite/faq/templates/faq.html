@@ -20,4 +20,17 @@
     {% endfor %}
 </ul>
 
+    <label for="size">Table size:</label>
+    <input type="number" id="size" min="1" value="3">
+    <button onclick="generateTable()">Generate table</button>
+    <button onclick="transposeTable()">Transporate table</button>
+    <label for="limit">Limit highlite:</label>
+    <input type="number" id="limit" min="1" value="1">
+    <button onclick="addRow()">Add row</button>
+    <button onclick="addColumn()">Add column</button>
+
+    <table id="myTable"></table>
+
+<script src="/static/js/9_table_specific_task_faq.js"></script>
+
 {% endblock %}
