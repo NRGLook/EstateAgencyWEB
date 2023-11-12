@@ -39,15 +39,18 @@
     {% endfor %}
 </div>
 
-<h2>
-    Настройка ротации баннеров
-</h2>
-<form id="rotation-form">
-    <label for="interval">Интервал (секунды):</label>
-    <input type="number" id="interval" name="interval" value="1">
-    <button type="button" id="start-rotation">Запустить ротацию</button>
-    <button type="button" id="stop-rotation">Остановить ротацию</button>
-</form>
+    {% if user.is_superuser %}
+    <h2>
+        Settings rotation banners
+    </h2>
+    <form id="rotation-form">
+        <label for="interval">Interval (s):</label>
+        <input type="number" id="interval" name="interval" value="1">
+        <button type="button" id="start-rotation">Start</button>
+        <button type="button" id="stop-rotation">Stop</button>
+    </form>
+    {% endif %}
+
 
 <!-- Скрипты для изменения размера шрифта и цвета текста, цвета фона -->
 <script src="/static/js/2_news.js"></script>
